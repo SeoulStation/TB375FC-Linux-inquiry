@@ -1,0 +1,1 @@
+Lenovo TB375FC: vertical brightness bands on second DRM activation with Novatek firmware/reset loops

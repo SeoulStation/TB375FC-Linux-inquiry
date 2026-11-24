@@ -1,0 +1,386 @@
+{
+  "Schema": 1,
+  "Kind": "GRID_OMISSION_FIRST_SECOND_PHASE_CLOCK_COMPARISON_PC_V1",
+  "BootId": "1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6",
+  "Actions": {
+    "DeviceQueries": 0,
+    "DeviceWrites": 0,
+    "DisplayAttempts": 0,
+    "OriginalArtifactsModified": false
+  },
+  "First": {
+    "Native": {
+      "Qualified": true,
+      "CleanupVerified": true,
+      "CleanupUnknown": false,
+      "DisplayAttempted": true,
+      "ViewerStatus": 0,
+      "CaptureStartMonotonicMS": 19818800,
+      "CaptureStopMonotonicMS": 19824800,
+      "CaptureElapsedMS": 6000,
+      "Entries": 2,
+      "Clock": "mono"
+    },
+    "OriginalHostSuccess": false,
+    "OriginalHostCleanupUnknown": true,
+    "SeparateCompletionSuccess": true,
+    "OpticalStable": true,
+    "Profile": {
+      "read_pre": {
+        "Hits": 0,
+        "Missed": 0
+      },
+      "read_post": {
+        "Hits": 0,
+        "Missed": 0
+      },
+      "write_pre": {
+        "Hits": 1,
+        "Missed": 0
+      },
+      "write_post": {
+        "Hits": 1,
+        "Missed": 0
+      }
+    },
+    "TraceEvents": [
+      {
+        "TimestampText": "19824.438050",
+        "TimestampNS": 19824438050000,
+        "Event": "write_pre",
+        "FromCaptureStartMS": 5638.05,
+        "BeforeCaptureStopMS": 361.95
+      },
+      {
+        "TimestampText": "19824.438140",
+        "TimestampNS": 19824438140000,
+        "Event": "write_post",
+        "FromCaptureStartMS": 5638.14,
+        "BeforeCaptureStopMS": 361.86
+      }
+    ],
+    "ExactWriteDisplayPhaseEstablished": false,
+    "WritePhaseLabel": "종료 인접; FIRST 단계 시각이 없어 복원/꺼짐으로 확정할 수 없음"
+  },
+  "Second": {
+    "Native": {
+      "Qualified": true,
+      "CleanupVerified": true,
+      "CleanupUnknown": false,
+      "DisplayAttempted": true,
+      "ViewerStatus": 0,
+      "CaptureStartMonotonicMS": 99046301,
+      "CaptureStopMonotonicMS": 99052540,
+      "CaptureElapsedMS": 6239,
+      "Entries": 1750,
+      "Clock": "mono",
+      "CaptureEvidencePassed": true,
+      "KernelSnapshotsPassed": true,
+      "KernelStreamPassed": true,
+      "SecondDisplayCapturePassed": true
+    },
+    "Host": {
+      "Success": true,
+      "NativeReportValidated": true,
+      "CaptureFilesRecovered": true,
+      "PostCaptureStateVerified": true,
+      "CleanupUnknown": false,
+      "IdentityBeforeAfterVerified": true,
+      "UserOpticalStabilityEstablished": false
+    },
+    "Optical": {
+      "Source": "Current user message after readiness call_709f184a5c0341fca3a39fb7932dd96e",
+      "ObservedUTC": "2026-11-24 13:11:38 UTC",
+      "OriginalUserText": "에헤이 방금 사진 나와서 확인해보니 사진 정상나오고 약 1초 조금 안돼서 세로 명암선 깨짐이 발생했습니다. 화면은 자동으로 꺼졌습니다.",
+      "PhotoInitiallyNormal": true,
+      "VerticalBrightnessCorruption": true,
+      "CorruptionStartedApproxSecondsAfterVisible": 1,
+      "UserSaysSlightlyLessThanOneSecond": true,
+      "AutomaticOffConfirmed": true,
+      "OpticalStable": false,
+      "WarmIssuePreventedByCandidate": false,
+      "NoThirdDisplayAuthorized": true
+    },
+    "Profile": {
+      "read_pre": {
+        "Hits": 311,
+        "Missed": 0
+      },
+      "read_post": {
+        "Hits": 311,
+        "Missed": 0
+      },
+      "write_pre": {
+        "Hits": 564,
+        "Missed": 0
+      },
+      "write_post": {
+        "Hits": 564,
+        "Missed": 0
+      }
+    },
+    "Phases": [
+      {
+        "Sequence": 1,
+        "Phase": "APPLY_BEGIN",
+        "MonotonicNS": 99046919961287,
+        "PID": 32219,
+        "FromApplyMS": 0.0,
+        "FromActiveMS": -270.242154
+      },
+      {
+        "Sequence": 2,
+        "Phase": "APPLY_OK",
+        "MonotonicNS": 99047190188672,
+        "PID": 32219,
+        "FromApplyMS": 270.227385,
+        "FromActiveMS": -0.014769
+      },
+      {
+        "Sequence": 3,
+        "Phase": "ACTIVE",
+        "MonotonicNS": 99047190203441,
+        "PID": 32219,
+        "FromApplyMS": 270.242154,
+        "FromActiveMS": 0.0
+      },
+      {
+        "Sequence": 4,
+        "Phase": "RESTORE_BEGIN",
+        "MonotonicNS": 99051920073980,
+        "PID": 32219,
+        "FromApplyMS": 5000.112693,
+        "FromActiveMS": 4729.870539
+      },
+      {
+        "Sequence": 5,
+        "Phase": "RESTORE_COMMIT_OK",
+        "MonotonicNS": 99052525658903,
+        "PID": 32219,
+        "FromApplyMS": 5605.697616,
+        "FromActiveMS": 5335.455462
+      },
+      {
+        "Sequence": 6,
+        "Phase": "RESTORE_VERIFIED",
+        "MonotonicNS": 99052530332749,
+        "PID": 32219,
+        "FromApplyMS": 5610.371462,
+        "FromActiveMS": 5340.129308
+      },
+      {
+        "Sequence": 7,
+        "Phase": "RESTORE_END",
+        "MonotonicNS": 99052530352057,
+        "PID": 32219,
+        "FromApplyMS": 5610.39077,
+        "FromActiveMS": 5340.148616
+      },
+      {
+        "Sequence": 8,
+        "Phase": "CLEANUP_BEGIN",
+        "MonotonicNS": 99052530360134,
+        "PID": 32219,
+        "FromApplyMS": 5610.398847,
+        "FromActiveMS": 5340.156693
+      },
+      {
+        "Sequence": 9,
+        "Phase": "CLEANUP_END",
+        "MonotonicNS": 99052535505287,
+        "PID": 32219,
+        "FromApplyMS": 5615.544,
+        "FromActiveMS": 5345.301846
+      }
+    ],
+    "Metrics": {
+      "ApplyCommitMS": 270.227385,
+      "ActiveUntilRestoreBeginMS": 4729.870539,
+      "ApplyBeginUntilRestoreBeginMS": 5000.112693,
+      "RestoreCommitMS": 605.584923,
+      "RestoreBeginUntilVerifiedMS": 610.258769,
+      "ApplyBeginUntilCleanupEndMS": 5615.544,
+      "StreamArmBeforeApplyMS": 786.179077,
+      "StreamFirstReadBeforeApplyMS": 391.925846,
+      "StreamWindowMS": 12000.91177
+    }
+  },
+  "ClockEvidence": {
+    "ViewerAndStreamReadClock": "소스가 CLOCK_MONOTONIC을 사용하므로 viewer phase 시각과 stream read 구간을 비교한다.",
+    "StreamReadRecordBins": {
+      "BeforeApply": 1,
+      "Applying": 33,
+      "ActiveFirstSecond": 211,
+      "LaterActive": 1262,
+      "Restoring": 27,
+      "AfterRestoreVerified": 2
+    },
+    "RecordBinsDescribeReadTimeOnly": true,
+    "KernelTimestampMinusReadBeginNS": {
+      "Min": -2434056,
+      "Median": 2220674.5,
+      "Max": 4384097,
+      "Positive": 1510,
+      "Negative": 26
+    },
+    "KernelClockEqualsMonotonicVerified": 0,
+    "CausalityEstablished": 0,
+    "FullHistoryGuaranteed": 0,
+    "ExactWindowHistoryGuaranteed": 0,
+    "RecordsWritten": 1536,
+    "FirstSequence": 935282,
+    "LastSequence": 936817,
+    "SequenceGapWithinCollectedRecords": 0,
+    "PrivateSourceOFDIndependentlyProven": 0,
+    "FinalDrainAttempted": false,
+    "Snapshots": {
+      "kernel-before.txt": {
+        "Bytes": 131046,
+        "Lines": 1448,
+        "KernelFirstTimestampSeconds": "98857.464888",
+        "KernelLastTimestampSeconds": "99043.566741",
+        "ReadStartMonotonicNS": 99046134561595,
+        "ReadEndMonotonicNS": 99046137606518,
+        "ReadStartFromApplyMS": -785.399692,
+        "ReadEndFromApplyMS": -782.354769,
+        "FullRingHistoryGuaranteed": 0,
+        "IntervalCoverageGuaranteed": 0
+      },
+      "kernel-after.txt": {
+        "Bytes": 131027,
+        "Lines": 1404,
+        "KernelFirstTimestampSeconds": "99047.626913",
+        "KernelLastTimestampSeconds": "99052.529992",
+        "ReadStartMonotonicNS": 99052804473287,
+        "ReadEndMonotonicNS": 99052813262595,
+        "ReadStartFromApplyMS": 5884.512,
+        "ReadEndFromApplyMS": 5893.301308,
+        "FullRingHistoryGuaranteed": 0,
+        "IntervalCoverageGuaranteed": 0
+      }
+    }
+  },
+  "Interpretation": {
+    "CollectionQualificationIsOpticalSuccess": false,
+    "PhysicalCorruptionTimestampSynchronized": false,
+    "UserReportEarlyActiveOnlyConditional": true,
+    "Condition": "사진 가시 시작이 ACTIVE 근방이라는 가정에서만 사용자 <1초 보고는 초기 활성 구간에 대응한다. 사진 가시 시각과 실제 줄 발생 시각을 기록한 센서/영상 동기화 자료는 없다.",
+    "NormalRestoreRelation": "소프트웨어 복원 시작은 ACTIVE 후 약4.730초이다. 사용자 <1초 보고와 숫자상 다른 시점이지만 정확한 광학 정렬이나 원인 배제 증명은 아니다.",
+    "FirstWritePhase": "FIRST write쌍은 수집 시작 후5.638초, 종료 약0.362초 전이다. FIRST phase marker가 없어 off/restore 구간으로 확정하지 않는다.",
+    "IOOrSPICauseEstablished": false,
+    "NoNewDisplayAuthorized": true,
+    "TextOrderWarning": "일반 puts 출력은 버퍼링되고 phase 행은 별도 write로 기록된다. viewer.txt 행의 배치만으로 순서를 재구성하지 않고 phase mono_ns/seq를 사용한다."
+  },
+  "InputPins": [
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-completion-recovery-pc\\completions\\1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-9e9fb4ed1d434bda8c0a3494fec9c13d\\completion.json",
+      "Bytes": 5341,
+      "SHA256": "afcb1cb580aefbdae2c755ed8a72afe6380a0697f350e6ef7328a2fc3108748d"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\GRID_OMISSION_FIRST_NATIVE_CAPTURE.txt",
+      "Bytes": 10078,
+      "SHA256": "01dd0a4ef007331f8288757acc961f4b49e2d0b477cd1a48e7ea5841839a2fe9"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\USER-OPTICAL-OBSERVATION.json",
+      "Bytes": 1243,
+      "SHA256": "4eb82c1c096c9948b2784144c214e7cbf35392b133e12b870b3ecc2c9c375a46"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\profile.txt",
+      "Bytes": 316,
+      "SHA256": "8985166db097eb3da8836eee25785c97ef1a98a68a85e0581830db9b65becb99"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\result.json",
+      "Bytes": 2444,
+      "SHA256": "9479c7701244cc008a1d38627d3c24e32d30feb1af1665f9a2651b84c404ff3b"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\stats.txt",
+      "Bytes": 1146,
+      "SHA256": "878843442089fb88f086c6b6fb77550bac699fdc7ad4c67f40c5986766c51be5"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\trace.txt",
+      "Bytes": 874,
+      "SHA256": "6e04d32d56bb0adf5efb66a9d15514b49d8d6f56b3dd3f51b501d276532b7c97"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-first-predevice-recovery-pc\\first\\logs\\run-20261123-150815-637-82f850518dc14846a3cfa0d042f99b6e\\viewer.txt",
+      "Bytes": 7202,
+      "SHA256": "cb397a658d5ad656fa793bd9af72e9ca0e4424c623a04504a0dd90d47dd329b9"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\phased-viewer-pc\\native-status-image-phased.c",
+      "Bytes": 35429,
+      "SHA256": "15d737291c6b262a4bc155201672d6aa1c267b39a8ac7017c8664bd8116c0490"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-post-first-r4-pc-20261124\\generated\\1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa\\kernel_log_stream_adapter.c",
+      "Bytes": 2171,
+      "SHA256": "c4a9fac8ed0fce94fe825ddf47aa64d63825b56b490c6b1074dbb78803d0f3c5"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\GRID_OMISSION_SECOND_NATIVE_CAPTURE.txt",
+      "Bytes": 13300,
+      "SHA256": "3fca354a464e37323127676768c8af84a43f604402662e200a5df8dd827fb797"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\USER-OPTICAL-OBSERVATION-UTF8.json",
+      "Bytes": 1186,
+      "SHA256": "ffe12af246c864696f37e452627e141a61b72b180b17efc98a0f5284d5ef5d43"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\USER-OPTICAL-OBSERVATION.json",
+      "Bytes": 857,
+      "SHA256": "9a5378148e2aef2ba138ef846338b8ee64725ea4dc6db13cf59822f4eb83913d"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-after.txt",
+      "Bytes": 131027,
+      "SHA256": "1f1737bb481847a5364bef00b99ab5253e8190e01fd0ff5f46eddbd62b1fc593"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-before.txt",
+      "Bytes": 131046,
+      "SHA256": "0701ffc1d905045a796f58c079adb7b42cf2e1e98d332c512ea56aaebd92fb0f"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-stream-meta.json",
+      "Bytes": 526592,
+      "SHA256": "0f70dee5d3f902639251f17133363e9ec82475652bd76435539b65c59cda2a99"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-stream.raw",
+      "Bytes": 157295,
+      "SHA256": "86d8d0609b308e9d91b80f60426f66549bb6d4388d8464f12dfc0039c541ee6b"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\profile.txt",
+      "Bytes": 316,
+      "SHA256": "a8ca8aeafd0f30c7c443d495b5fd4816d34dc1c8ec4e190b0e57150615d89d4b"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\result.json",
+      "Bytes": 4492,
+      "SHA256": "a7164c974316108062a62f34b8e4807cfe4d7a4c9d95ec9f5c2a05f87303eea1"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\stats.txt",
+      "Bytes": 1159,
+      "SHA256": "0f44847848c01f2e0a9a5f3c85f41a92b66db66a045d00cc71b0f6d6be95e883"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\trace.txt",
+      "Bytes": 325383,
+      "SHA256": "7255c150a585c912c5c141ad39116e28329c6d5632490e856e10f5f55fda4274"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\viewer.txt",
+      "Bytes": 8097,
+      "SHA256": "53ee4266f23e43e5843ed2ef9ae65d025abb67273053104b975ca358b55e632b"
+    }
+  ]
+}

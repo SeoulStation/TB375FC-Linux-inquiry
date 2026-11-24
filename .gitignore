@@ -1,0 +1,11 @@
+*.img
+*.bin
+*.ko
+*.o
+*.zip
+*.7z
+*.tar*
+*.key
+*.pem
+.env*
+__pycache__/

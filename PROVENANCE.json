@@ -1,0 +1,289 @@
+{
+  "Schema": 1,
+  "SourceRoots": {
+    "P": "TB375FC-Linux",
+    "G": "tb375fc-gnome-app-pilot"
+  },
+  "Files": [
+    {
+      "PublishedPath": "TB375FC-development-diary-20261124.ko.md",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/TB375FC-development-diary-20261124.ko.md",
+      "Bytes": 56054,
+      "SHA256": "3e48a6f91661eebbe09438a2cf01ba82caec30512f13843e5b4e8e38940a482d",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/first/profile.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/first/profile.txt",
+      "Bytes": 316,
+      "SHA256": "8985166db097eb3da8836eee25785c97ef1a98a68a85e0581830db9b65becb99",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/first/stats.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/first/stats.txt",
+      "Bytes": 1146,
+      "SHA256": "878843442089fb88f086c6b6fb77550bac699fdc7ad4c67f40c5986766c51be5",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/first/trace.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/first/trace.txt",
+      "Bytes": 874,
+      "SHA256": "6e04d32d56bb0adf5efb66a9d15514b49d8d6f56b3dd3f51b501d276532b7c97",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/first/viewer.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/first/viewer.txt",
+      "Bytes": 7202,
+      "SHA256": "cb397a658d5ad656fa793bd9af72e9ca0e4424c623a04504a0dd90d47dd329b9",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/kernel-after.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/kernel-after.txt",
+      "Bytes": 131027,
+      "SHA256": "1f1737bb481847a5364bef00b99ab5253e8190e01fd0ff5f46eddbd62b1fc593",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/kernel-before.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/kernel-before.txt",
+      "Bytes": 131046,
+      "SHA256": "0701ffc1d905045a796f58c079adb7b42cf2e1e98d332c512ea56aaebd92fb0f",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/kernel-stream-meta.json",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/kernel-stream-meta.json",
+      "Bytes": 526592,
+      "SHA256": "0f70dee5d3f902639251f17133363e9ec82475652bd76435539b65c59cda2a99",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/kernel-stream.raw",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/kernel-stream.raw",
+      "Bytes": 157295,
+      "SHA256": "86d8d0609b308e9d91b80f60426f66549bb6d4388d8464f12dfc0039c541ee6b",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/profile.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/profile.txt",
+      "Bytes": 316,
+      "SHA256": "a8ca8aeafd0f30c7c443d495b5fd4816d34dc1c8ec4e190b0e57150615d89d4b",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/stats.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/stats.txt",
+      "Bytes": 1159,
+      "SHA256": "0f44847848c01f2e0a9a5f3c85f41a92b66db66a045d00cc71b0f6d6be95e883",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/trace.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/trace.txt",
+      "Bytes": 325383,
+      "SHA256": "7255c150a585c912c5c141ad39116e28329c6d5632490e856e10f5f55fda4274",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/second/viewer.txt",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/second/viewer.txt",
+      "Bytes": 8097,
+      "SHA256": "53ee4266f23e43e5843ed2ef9ae65d025abb67273053104b975ca358b55e632b",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "evidence/summary.json",
+      "OriginalPath": "P/reports/20261124-developer-inquiry/evidence/summary.json",
+      "Bytes": 2077,
+      "SHA256": "c233c0ae45e71ee54d46700286e580c88c30f8c88f186aa260872eba9b50e142",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/phase-analysis.md",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/phase-analysis.md",
+      "Bytes": 4296,
+      "SHA256": "c9d5b616cff7c07b5f5c76d2524ad01ac2d837cc92cb07cb14c9165b16388a7a",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/phase-analysis.json",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/phase-analysis.json",
+      "Bytes": 17305,
+      "SHA256": "b3b97696524cd8bd55a9eec535780eda7c0c27a896961393d929955a5f44a4ce",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/source-scope.json",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/source-scope.json",
+      "Bytes": 6735,
+      "SHA256": "b09e800b4384c31ab03c4264825865c8a2009f823ae8342be8ec6b31fe38d193",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/source-candidates.md",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/source-candidates.md",
+      "Bytes": 9498,
+      "SHA256": "9105dbc5a9368f5ecff4f2567ef21ccc173a2d0455a21f7348ce25833b7bd480",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/spi-analysis-corrections.md",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/spi-analysis-corrections.md",
+      "Bytes": 2456,
+      "SHA256": "5ec06f971c8eccd1e8da2721f45da804c2f477b01da609cc0baaf6c231ad2a1d",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/spi-analysis-corrections.json",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/spi-analysis-corrections.json",
+      "Bytes": 7545,
+      "SHA256": "dd98e699e80d1f3fd6de34b98073f3784247d488c11bd8f0ed507d2996aa110c",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "analysis/spi-analysis-packet-windows.md",
+      "OriginalPath": "G/same-boot-reopen-pc/second-grid-omission-comparison-pc-20261124/spi-analysis-packet-windows.md",
+      "Bytes": 1689,
+      "SHA256": "707b98bbc1dab907bd33f9d34d2bc3ed6927b9456bf8f0164600fba707e6c48d",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/viewer/native-status-image-phased.c",
+      "OriginalPath": "G/same-boot-reopen-pc/phased-viewer-pc/native-status-image-phased.c",
+      "Bytes": 35429,
+      "SHA256": "15d737291c6b262a4bc155201672d6aa1c267b39a8ac7017c8664bd8116c0490",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/backend_tracefs.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/backend_tracefs.c",
+      "Bytes": 14897,
+      "SHA256": "840daf386827707645d7dc456b3ec94b80f140f28331c3c53dfd4c7832d9483a",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/capture_lifecycle.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/capture_lifecycle.c",
+      "Bytes": 18135,
+      "SHA256": "685fd874a952fccdb8b2cb2deee3c382fd37f8b4e6ffaaf8af310eeaf07e9595",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/collect_supervised_second.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/collect_supervised_second.c",
+      "Bytes": 31822,
+      "SHA256": "8aed7bf9e8e3f60e5d388ec5d7cdcb2c0028d60d08c4374e8ce54dea81f07542",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_lifecycle.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_lifecycle.c",
+      "Bytes": 7572,
+      "SHA256": "0316d26cee03550ea5847e2aa787601be626cc12ba79862f8e4f8fbeabcbb4cc",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_snapshot.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_snapshot.c",
+      "Bytes": 6856,
+      "SHA256": "2bd7bf74dbdc7fdc028fad632afc91ec47c629e4cf1d81748347b176353a3d7c",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_snapshot.h",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_snapshot.h",
+      "Bytes": 2186,
+      "SHA256": "4fc1421ca164239bc75c4213c98ee5681ce7940e7810acdd495ac4ff30e835b7",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_stream.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_stream.c",
+      "Bytes": 14149,
+      "SHA256": "f82995d23c7e3e9f618ada5e417c0086c48548314bc17181ffdf1742d69f8c87",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_stream.h",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_stream.h",
+      "Bytes": 4297,
+      "SHA256": "5bc02f4e9845345b1216abd0e399b471357bfda83dba8dd7975d8076cb117440",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_stream_adapter.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_stream_adapter.c",
+      "Bytes": 2171,
+      "SHA256": "c4a9fac8ed0fce94fe825ddf47aa64d63825b56b490c6b1074dbb78803d0f3c5",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_log_stream_adapter.h",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_log_stream_adapter.h",
+      "Bytes": 746,
+      "SHA256": "d98def66e771cd5015bbff7371b37a75468606cd8dab16eb18981aafefd7773c",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_stream_lifecycle.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_stream_lifecycle.c",
+      "Bytes": 15286,
+      "SHA256": "998102a844fee1b65f4afb4fedfe243af84daf31d673c056527b170453790b36",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_stream_lifecycle.h",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_stream_lifecycle.h",
+      "Bytes": 1928,
+      "SHA256": "929c7a30b5aaef74ab7e2c241542e08f74fffc08bf8aec0bf30ca27286b96f30",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/kernel_stream_metadata.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/kernel_stream_metadata.c",
+      "Bytes": 11887,
+      "SHA256": "8da784fad12fc0bda6fdb76be25384dda4b678e8129a20dc9fe85d864ea7bb8c",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/qualification.h",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/qualification.h",
+      "Bytes": 6129,
+      "SHA256": "12e8f3d099805153750cf09228e11d2eb2ab7fafeb86ff6ea90b93edd74e2620",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/second-collector/viewer_lifecycle.c",
+      "OriginalPath": "G/same-boot-reopen-pc/second-post-first-r4-pc-20261124/generated/1a1dabf0-6854-4e36-a1b4-6cc09f5c14a6-dcc35f8f3d0644a58bb1e74e794fd8fa/viewer_lifecycle.c",
+      "Bytes": 9859,
+      "SHA256": "45df1afc3e632a451ca3acdcc0af7f7feb7bebcf1913e8fb495830f3d3da19ca",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/module-analysis/build_candidate_pc.py",
+      "OriginalPath": "G/same-boot-reopen-pc/grid-omission-candidate-pc/build_candidate_pc.py",
+      "Bytes": 12284,
+      "SHA256": "edbec652a92ca9b6e5e6ca2ce18bf8d4f37e39229da8954cb520d170d311c482",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/module-analysis/elf_audit.py",
+      "OriginalPath": "P/development/resume-20261031-2013/grid-elf-feasibility/elf_audit.py",
+      "Bytes": 13567,
+      "SHA256": "d17859dce39da8502d08f0a25ba93d10810221f474638d1c3cf77a31c6d52ccd",
+      "ByteIdentical": true
+    },
+    {
+      "PublishedPath": "code/module-analysis/grid_lock_wrapper.S",
+      "OriginalPath": "P/development/resume-20261031-2013/grid-elf-prototype/grid_lock_wrapper.S",
+      "Bytes": 1192,
+      "SHA256": "7902d4dd337c6cfab7d91ccd567fe14646f421e5f20710fa6a2748e7b3b2a96a",
+      "ByteIdentical": true
+    }
+  ]
+}

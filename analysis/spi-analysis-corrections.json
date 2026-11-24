@@ -1,0 +1,161 @@
+{
+  "Schema": 1,
+  "Kind": "INDEPENDENT_SPI_ANALYSIS_EXPLICIT_CORRECTIONS_PC_V1",
+  "Success": true,
+  "CorrectedUTC": "2026-11-24T13:36:45.942148+00:00",
+  "PreservedAffectedArtifacts": [
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-grid-omission-comparison-pc-20261124\\spi-analysis.json",
+      "Bytes": 1629389,
+      "SHA256": "8cdb924e32fc0373aedd412107955387bde9806f5d207c6c2906bdd504a86a90"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-grid-omission-comparison-pc-20261124\\spi-analysis.md",
+      "Bytes": 3808,
+      "SHA256": "6d9b121cafdba1585174c2750f5f59eae0b65e2e85abad71b50901f013249166"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-grid-omission-comparison-pc-20261124\\spi-analysis-packet-windows.json",
+      "Bytes": 40830,
+      "SHA256": "e93ca32cde2db541bbfa5b7103e1af7bc51acc83c8bffc06afdc37934ff5ded5"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-grid-omission-comparison-pc-20261124\\spi-analysis-packet-windows.md",
+      "Bytes": 1689,
+      "SHA256": "707b98bbc1dab907bd33f9d34d2bc3ed6927b9456bf8f0164600fba707e6c48d"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\independent-post-first-r4-review-pc-20261124\\ACTUAL-SECOND-EIGHT-ARTIFACT-INDEPENDENT-PC-REVIEW.json",
+      "Bytes": 578927,
+      "SHA256": "8df917db3b7dfa8890edbbd251869234a0f0523ad39230efcc484f334cc755e9"
+    }
+  ],
+  "Inputs": [
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-stream.raw",
+      "Bytes": 157295,
+      "SHA256": "86d8d0609b308e9d91b80f60426f66549bb6d4388d8464f12dfc0039c541ee6b"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\kernel-stream-meta.json",
+      "Bytes": 526592,
+      "SHA256": "0f70dee5d3f902639251f17133363e9ec82475652bd76435539b65c59cda2a99"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\second-staged-receipt-recovery-pc-20261124\\logs\\run-20261124-130858-331-313129854ec743f38abe6f0cef053c1e\\viewer.txt",
+      "Bytes": 8097,
+      "SHA256": "53ee4266f23e43e5843ed2ef9ae65d025abb67273053104b975ca358b55e632b"
+    }
+  ],
+  "Reason": "함수명 포함 기록 960개를 checksum mismatch 오류 960건으로 잘못 표현했다. 실제 오류 문구는 80개이다.",
+  "CorrectCounts": {
+    "ChecksumMismatchMessages": 80,
+    "ChecksumFunctionRelatedRecords": 960,
+    "FirmwareResetRecoveryMessages": 8,
+    "FirmwareUpdateSuccessMessages": 9,
+    "ExtendedCommand79FailureMessages": 8,
+    "ExtendedCommand7BFailureMessages": 9
+  },
+  "CountsByRecordedCaller": {
+    "ChecksumMismatchMessages": {
+      "T993": 80
+    },
+    "ChecksumFunctionRelatedRecords": {
+      "T993": 960
+    },
+    "FirmwareResetRecoveryMessages": {
+      "T993": 8
+    },
+    "FirmwareUpdateSuccessMessages": {
+      "T26676": 1,
+      "T993": 8
+    },
+    "ExtendedCommand79FailureMessages": {
+      "T993": 8
+    },
+    "ExtendedCommand7BFailureMessages": {
+      "T26676": 1,
+      "T993": 8
+    }
+  },
+  "ChecksumGrouping": {
+    "MismatchGroups": 80,
+    "MismatchMessagePerGroup": 1,
+    "FollowingRelatedDumpRecordsPerGroup": 11,
+    "TotalRelatedDumpRecords": 880,
+    "TotalChecksumFunctionRecords": 960,
+    "AllGroupsContiguousAndAccounted": true
+  },
+  "CorrectedFields": [
+    "spi-analysis.json SecondKernelAlerts.StreamAlerts.ChecksumMismatch.Count=960 는 함수명 관련 기록 수이며 실제 mismatch 메시지 수는 80이다.",
+    "ACTUAL-SECOND-EIGHT-ARTIFACT-INDEPENDENT-PC-REVIEW.json ObservedKernelSymptoms.NVTChecksumMismatchRecords=960 는 함수명 관련 기록 수이며 실제 mismatch 메시지 수는 80이다.",
+    "spi-analysis.md 및 spi-analysis-packet-windows.md 의 checksum mismatch960건 표현은 오류80건/관련기록960개로 정정한다.",
+    "부모에게 전송한 보고 및 앞선 최종답변의 체크섬 오류960건 표현도 같은 이유로80건으로 정정한다."
+  ],
+  "InitialCurrentWorkerSequence": [
+    {
+      "Sequence": 935327,
+      "KernelTimestampUS": 99047424602,
+      "ReaderStartNS": 99047424078287,
+      "ReaderEndNS": 99047424091749,
+      "Text": "3,935327,99047424602,-,caller=T26676;[NVT-ts] nvt_ext_cmd_store 969: send Cmd 0x7B 0x00 success, tried 0 times"
+    },
+    {
+      "Sequence": 935328,
+      "KernelTimestampUS": 99047424631,
+      "ReaderStartNS": 99047424121672,
+      "ReaderEndNS": 99047424127749,
+      "Text": "3,935328,99047424631,-,caller=T26676;[NVT-ts] nvt_restore_cmd_func 2279: nvt_restore_cmd_func++"
+    },
+    {
+      "Sequence": 935329,
+      "KernelTimestampUS": 99047452500,
+      "ReaderStartNS": 99047452077364,
+      "ReaderEndNS": 99047452089056,
+      "Text": "3,935329,99047452500,-,caller=T26676;[NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times"
+    },
+    {
+      "Sequence": 935330,
+      "KernelTimestampUS": 99047480424,
+      "ReaderStartNS": 99047480092979,
+      "ReaderEndNS": 99047480109595,
+      "Text": "3,935330,99047480424,-,caller=T26676;[NVT-ts] nvt_ext_cmd_store 969: send Cmd 0x79 0x00 success, tried 0 times"
+    },
+    {
+      "Sequence": 935331,
+      "KernelTimestampUS": 99047620516,
+      "ReaderStartNS": 99047620047441,
+      "ReaderEndNS": 99047620060441,
+      "Text": "3,935331,99047620516,-,caller=T26676;[NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B"
+    },
+    {
+      "Sequence": 935332,
+      "KernelTimestampUS": 99047620549,
+      "ReaderStartNS": 99047620096133,
+      "ReaderEndNS": 99047620103518,
+      "Text": "3,935332,99047620549,-,caller=T26676;[NVT-ts] nvt_restore_cmd_func 2299: nvt_restore_cmd_func--"
+    },
+    {
+      "Sequence": 935333,
+      "KernelTimestampUS": 99047620949,
+      "ReaderStartNS": 99047620120056,
+      "ReaderEndNS": 99047620126902,
+      "Text": "3,935333,99047620949,-,caller=T993;[NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)"
+    }
+  ],
+  "InitialWorker7900ReportedSuccess": true,
+  "InitialWorker7B00ReportedSuccessBeforeRestore": true,
+  "RestoreWorker7B00ReportedFailure": true,
+  "InitialWorker7900FailureClaimRejected": true,
+  "LowLevelIOPairsRetStatusAndFileValidationUnaffected": true,
+  "RawEightArtifactByteAndConsumerPassUnaffected": true,
+  "OpticalStable": false,
+  "CandidatePreventedRecurrence": false,
+  "DriverRootCauseEstablished": false,
+  "Read110Count88IsNotProofOfChecksum80PlusRecovery8Mapping": true,
+  "KernelClockEqualityEstablished": false,
+  "CurrentDeviceQueryCalls": 0,
+  "SourceChanges": 0,
+  "DeviceActions": 0,
+  "OriginalLogsAndPreviousReportsPreserved": true
+}

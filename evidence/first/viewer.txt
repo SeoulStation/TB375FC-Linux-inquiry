@@ -1,0 +1,110 @@
+DRIVER mediatek query_only=false
+DUMB_BUFFER_SUPPORTED 1
+RESOURCES crtcs=3 connectors=2 framebuffers=0
+CONNECTOR id=31 type=10 type_id=1 connection=3 modes=0 encoder=0
+CONNECTOR id=34 type=16 type_id=1 connection=1 modes=4 encoder=0
+MODE 2944x1840@144 clock_khz=890618
+MODE 2944x1840@120 clock_khz=770472
+MODE 2944x1840@60 clock_khz=770472
+MODE 2944x1840@30 clock_khz=770472
+CRTC id=115 framebuffer=0 mode_valid=0
+CRTC id=156 framebuffer=0 mode_valid=0
+CRTC id=172 framebuffer=0 mode_valid=0
+PLANE_STATE id=39 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=59 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=63 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=67 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=71 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=75 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=79 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=83 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=87 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=91 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=95 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=99 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=103 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=107 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=111 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=148 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=152 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=164 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=168 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+SNAPSHOT object=34 property=CRTC_ID id=20 value=0
+SNAPSHOT object=115 property=ACTIVE id=22 value=0
+SNAPSHOT object=115 property=MODE_ID id=23 value=0
+SNAPSHOT object=39 property=FB_ID id=17 value=0
+SNAPSHOT object=39 property=CRTC_ID id=20 value=0
+SNAPSHOT object=39 property=SRC_X id=9 value=0
+SNAPSHOT object=39 property=SRC_Y id=10 value=0
+SNAPSHOT object=39 property=SRC_W id=11 value=0
+SNAPSHOT object=39 property=SRC_H id=12 value=0
+SNAPSHOT object=39 property=CRTC_X id=13 value=0
+SNAPSHOT object=39 property=CRTC_Y id=14 value=0
+SNAPSHOT object=39 property=CRTC_W id=15 value=0
+SNAPSHOT object=39 property=CRTC_H id=16 value=0
+PLAN connector=34 encoder=33 crtc=115 primary_plane=39 2944x1840@30 duration=10
+STATUS_IMAGE_PAYLOAD_READ exact_dimensions=true X_padding_zero=true
+IDLE_RECHECK_BEFORE_TEST_ONLY
+PLANE_STATE id=39 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=59 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=63 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=67 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=71 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=75 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=79 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=83 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=87 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=91 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=95 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=99 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=103 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=107 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=111 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=148 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=152 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=164 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=168 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+ATOMIC_TEST_ONLY_PASSED display_state_not_applied=true
+IDLE_RECHECK_BEFORE_APPLY
+PLANE_STATE id=39 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=59 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=63 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=67 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=71 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=75 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=79 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=83 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=87 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=91 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=95 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=99 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=103 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=107 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=111 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=148 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=152 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=164 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=168 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+IMAGE_ACTIVE max_seconds_from_commit_start=5 no_backlight_sysfs_write=true
+IDLE_RECHECK_AFTER_RESTORE
+PLANE_STATE id=39 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=59 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=63 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=67 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=71 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=75 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=79 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=83 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=87 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=91 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=95 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=99 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=103 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=107 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=111 possible_crtcs=1 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=148 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=152 possible_crtcs=2 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=164 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+PLANE_STATE id=168 possible_crtcs=4 raw_fb=0 raw_crtc=0 FB_ID=0 CRTC_ID=0
+ORIGINAL_INACTIVE_STATE_RESTORED_AND_VERIFIED all_13_atomic_properties=true all_planes_detached=true
+RAM_DISPLAY_OBJECT_CLEANUP_FINISHED

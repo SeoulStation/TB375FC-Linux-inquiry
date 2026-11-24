@@ -1,0 +1,49 @@
+{
+  "Scope": "TB375FC native Linux development and unresolved warm-display fault",
+  "AsOfKST": "2026-11-24",
+  "Kernel": "6.1.25-android14-11-g4528d59d4335-ab11203497",
+  "Resolution": [
+    2944,
+    1840
+  ],
+  "RefreshHz": 30,
+  "CandidateImageSHA256": "e0583a484647c885c71b6e9780e5bd35e2d90c3ac264e9050f4852c7cfe704f1",
+  "ModuleSHA256": "e6df2e95385bbb7a03ab9f7f90f02faf2ff20614860420b36a6b4e190c1e320c",
+  "First": {
+    "OpticallyStable": true,
+    "OriginalHostResultSuccess": false,
+    "SeparateCompletionRecoveryVerified": true,
+    "TraceEventRows": 2,
+    "SPIReadPairs": 0,
+    "SPIWritePairs": 1
+  },
+  "Second": {
+    "MachineCaptureAndRecoveryVerified": true,
+    "OpticallyStable": false,
+    "PhotoInitiallyNormal": true,
+    "VerticalBrightnessCorruptionLessThanOneSecond": true,
+    "AutomaticOffUserConfirmed": true,
+    "RootCauseEstablished": false,
+    "SPIRootCauseEstablished": false,
+    "SPIReadPairs": 311,
+    "SPIWritePairs": 564,
+    "AllObservedTransportPostsRetStatusZero": true,
+    "ChecksumMismatchErrorOccurrences": 80,
+    "ChecksumRelatedLinesIncludingDump": 960,
+    "FirmwareResetRecoveryLogCount": 8,
+    "FirmwareSuccessLogCount": 9,
+    "Command79FailureCompletionLogs": 8,
+    "Command7BFailureCompletionLogs": 9,
+    "KernelStreamRecords": 1536,
+    "KernelStreamSequenceGap": 0,
+    "ImagePayloadSHA256": "a69b3c694382c82dc219fbfa9ee4f14fc6cd3597a1ff26e58aaefc42daf85ecc"
+  },
+  "Cautions": [
+    "Do not interpret 960 related log lines as 960 checksum errors.",
+    "SPI ret/status zero does not prove the protocol or optical output is correct.",
+    "No synchronized optical timestamp or physical SPI/MIPI waveform was acquired.",
+    "Kernel snapshots are ring samples and do not guarantee complete boot history.",
+    "No third display or further device change was executed after this SECOND."
+  ],
+  "OriginalUserOpticalStatement": "에헤이 방금 사진 나와서 확인해보니 사진 정상나오고 약 1초 조금 안돼서 세로 명암선 깨짐이 발생했습니다. 화면은 자동으로 꺼졌습니다."
+}

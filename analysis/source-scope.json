@@ -1,0 +1,200 @@
+{
+  "Schema": 1,
+  "Kind": "GRID_OMISSION_E6_ACTUAL_COMPARISON_STATIC_MODULE_SCOPE_V1",
+  "Success": true,
+  "PCOnly": true,
+  "Inputs": [
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-candidate-pc\\build_candidate_pc.py",
+      "Bytes": 12284,
+      "SHA256": "edbec652a92ca9b6e5e6ca2ce18bf8d4f37e39229da8954cb520d170d311c482"
+    },
+    {
+      "Path": "E:\\Codex로 만든 코드들\\TB375FC-Linux\\development\\resume-20261101-0920\\combined-grid-pen-C-host\\nt36532-combined-grid-pen-C.NOT-FOR-DEVICE.ko",
+      "Bytes": 522784,
+      "SHA256": "d742bdb89ab712ce48f462e446b26ef85bbfba2606b045c3d6d4936c6fdfbfdc"
+    },
+    {
+      "Path": "C:\\Users\\Seoul\\.codex\\.chatgpt-projects\\g-p-6a6183ac70148191abe8323fb89d9662\\tb375fc-gnome-app-pilot\\same-boot-reopen-pc\\grid-omission-candidate-pc\\candidate-pc-e7ec5facddeb481a9afee48b9133111b\\nt36532-C-restore-grid-callsite-omission.NOT-FOR-DEVICE.ko",
+      "Bytes": 522784,
+      "SHA256": "e6df2e95385bbb7a03ab9f7f90f02faf2ff20614860420b36a6b4e190c1e320c"
+    },
+    {
+      "Path": "E:\\Codex로 만든 코드들\\TB375FC-Linux\\development\\resume-20261031-2013\\grid-elf-prototype\\nt36532-grid-wrapper.NOT-FOR-DEVICE.ko",
+      "Bytes": 522784,
+      "SHA256": "1a0c4f8bc21c4b35d479dc77b9efc03794c8260ed80a960187c8272e9753a11b"
+    },
+    {
+      "Path": "E:\\Codex로 만든 코드들\\TB375FC-Linux\\development\\resume-20261031-2013\\grid-elf-prototype\\prototype-disassembly.stdout.txt",
+      "Bytes": 1089901,
+      "SHA256": "0533696ee20aad504f94d78af2891dcdad2764e765e03050e95fb74f8a4079e3"
+    }
+  ],
+  "ExactCandidateReverification": {
+    "SourceBytes": 522784,
+    "CandidateBytes": 522784,
+    "Sections": 52,
+    "Symbols": 1103,
+    "SourceRelocations": 7620,
+    "CandidateRelocations": 7619,
+    "OnlyChangedSectionHeaders": [
+      ".rela.text"
+    ],
+    "OnlyChangedSectionContents": [
+      ".text",
+      ".rela.text"
+    ],
+    "ExecutableTextChangedOffsets": [
+      "0x56d0",
+      "0x56d1",
+      "0x56d2",
+      "0x56d3"
+    ],
+    "RemovedCall26TextOffset": "0x56d0",
+    "OtherGridCallerOffsetsPreserved": [
+      "0x428c",
+      "0xa4f0"
+    ],
+    "UnchangedSymbols": true,
+    "UnchangedModinfoVersionsUnwindAndOtherSections": true,
+    "UnusedFormerRelaTailZeroed": true,
+    "AllOtherRelocationsExactCanonicalOrderEqual": true,
+    "ExactOffsets": {
+      "TextFileOffset": "0x5794",
+      "RemovedRelocationFileOffset": "0x5f040",
+      "OldRelaEnd": "0x7a670",
+      "RelaSizeFieldOffset": "0x7eec0"
+    },
+    "FileDifferingBytes": 17876
+  },
+  "Functions": [
+    {
+      "Name": "CTP_SPI_READ",
+      "TextOffset": "0x274",
+      "Bytes": 504,
+      "CandidateSHA256": "e6bb622b93d70338abf35a8683b3d20396b4662082ecee75023d51841d889f6f",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "CTP_SPI_WRITE",
+      "TextOffset": "0x470",
+      "Bytes": 476,
+      "CandidateSHA256": "1fb7873deb2650c7473452d7270dbc9212f1426bb4730d935864dbaefb8b04f4",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_edge_reject_set",
+      "TextOffset": "0x8b24",
+      "Bytes": 60,
+      "CandidateSHA256": "e32cdee36aa6efee85ee9467862c4c6c5b4dc0bc493d89fbbd64b364432433d0",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_edge_grid_zone_set",
+      "TextOffset": "0x8b64",
+      "Bytes": 828,
+      "CandidateSHA256": "fd7690e73d8bf76fffe9d223827f0943f513037cac0224e5ca03030854a3e098",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_cmd_store",
+      "TextOffset": "0x8598",
+      "Bytes": 692,
+      "CandidateSHA256": "743f0cdcbedc6b804ac3f270e116957540ea12cdee91ff47ed68b5aadc254bdc",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_ts_work_func",
+      "TextOffset": "0x3f4c",
+      "Bytes": 3404,
+      "CandidateSHA256": "ac2144b8bc74d172ffb9e9e62e6de97103867437002748e8379336fc947c7c12",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_update_firmware",
+      "TextOffset": "0x61a4",
+      "Bytes": 3776,
+      "CandidateSHA256": "f4612032d88abe0f11c77e4c42f974602e56b2e2f5f8fd0916cd18d0a841d824",
+      "CToCandidateBytesEqual": true,
+      "PrototypeToCandidateBytesEqual": true
+    },
+    {
+      "Name": "nvt_restore_cmd_func",
+      "TextOffset": "0x5648",
+      "Bytes": 224,
+      "CandidateSHA256": "f5a8e959ba72cfd48c90d05e5de486ce1c5530996daffbbe81b5ed3bed14b9ff",
+      "CToCandidateBytesEqual": false,
+      "PrototypeToCandidateBytesEqual": false
+    }
+  ],
+  "GridCallerSites": [
+    {
+      "TextOffset": "0x428c",
+      "Owner": "nvt_ts_work_func",
+      "Opcode": "00000094",
+      "Relocations": [
+        {
+          "Type": 283,
+          "Target": [
+            ".text.tb375fc_grid_lock",
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "TextOffset": "0x56d0",
+      "Owner": "nvt_restore_cmd_func",
+      "Opcode": "1f2003d5",
+      "Relocations": []
+    },
+    {
+      "TextOffset": "0xa4f0",
+      "Owner": "nvt_edge_grid_zone_store",
+      "Opcode": "00000094",
+      "Relocations": [
+        {
+          "Type": 283,
+          "Target": [
+            ".text.tb375fc_grid_lock",
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "GridCommandEvidence": {
+    "Function": "nvt_edge_grid_zone_set",
+    "ConstantAt8bbc": "MOV w27,#0x7f50",
+    "WireLengthAt8be0": 9,
+    "WriteCallAt8c00": "CTP_SPI_WRITE",
+    "HostOffsetByte50BecomesWireD0": true,
+    "Payload": "d0 7f 01 +6 argument bytes"
+  },
+  "EdgeCommandEvidence": {
+    "Function": "nvt_edge_reject_set",
+    "TableAt8b3c": "0xbbba/0xbcbd shift by mode*8",
+    "Calls": "nvt_cmd_store",
+    "ObservedBAIsSeparateFrom7F": true
+  },
+  "Interpretation": {
+    "RestoreGridSite56d0OmittedForEveryCall": true,
+    "IRQGridSite428cPreserved": true,
+    "UserspaceGridSiteA4f0Preserved": true,
+    "WholeGridProtocolNotDisabled": true,
+    "ExactVendorCSourceUnavailable": true,
+    "PublicReferenceSourceIsNotExactVendor": true,
+    "LoadedCodeMemoryHashVerified": false,
+    "LiveCallerPCFetched": false,
+    "RootCauseEstablished": false
+  },
+  "DeviceActions": 0,
+  "SourceOrModuleModified": false,
+  "NewModuleGenerated": false
+}

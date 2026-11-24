@@ -1,0 +1,1404 @@
+<3>[99047.626913][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.626916][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.626918][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99047.628260][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99047.628271][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628283][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628295][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628306][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628318][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628330][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628341][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628353][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628364][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628376][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.628388][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99047.629602][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99047.629615][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629627][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629638][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629649][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629661][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629672][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629683][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629694][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629705][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629715][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.629726][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99047.630928][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99047.630940][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.630951][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.630962][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.630975][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.630987][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.630999][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.631012][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.631024][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.631037][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.631049][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99047.631061][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99047.632280][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99047.632495][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99047.632514][  T993] [NVT-ts] nvt_read_fw_history 1595: A2 33 F8 64 5F 64 A7 AB  4D B6 AA FE C5 65 3C 3A
+<3>[99047.632531][  T993] [NVT-ts] nvt_read_fw_history 1595: 30 D3 A2 1D 52 6F 3F 95  BA 4E 39 F3 C5 09 2A 88
+<3>[99047.632546][  T993] [NVT-ts] nvt_read_fw_history 1595: 3C 11 50 C9 E3 37 63 CB  F1 DB 75 60 95 9C 1C 1D
+<3>[99047.632561][  T993] [NVT-ts] nvt_read_fw_history 1595: 9A 5A 61 77 2A ED 56 EF  C3 2F B7 42 C9 C7 7D E1
+<3>[99047.632791][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99047.632808][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99047.632824][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.632838][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.632853][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2D
+<3>[99047.633088][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99047.633104][  T993] [NVT-ts] nvt_read_fw_history 1595: 06 E0 A5 76 8B 9B 99 70  36 7D A5 9D 29 E0 8F 8D
+<3>[99047.633119][  T993] [NVT-ts] nvt_read_fw_history 1595: 5B 91 14 21 93 B9 3B 5A  A5 93 F5 14 9F 84 8B E0
+<3>[99047.633134][  T993] [NVT-ts] nvt_read_fw_history 1595: B8 18 4C 08 75 88 25 3D  B4 55 09 C8 85 46 66 F2
+<3>[99047.633149][  T993] [NVT-ts] nvt_read_fw_history 1595: E8 C4 72 A2 9B 0E C0 EF  5F AD 68 51 AC FC 9C 93
+<3>[99047.633348][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99047.633364][  T993] [NVT-ts] nvt_read_fw_history 1595: 92 7C E2 90 69 BF 0C 31  2F BF 06 4A DE 51 97 35
+<3>[99047.633379][  T993] [NVT-ts] nvt_read_fw_history 1595: F3 AD A9 1B 70 1B 87 58  96 9B 4D 3B A3 87 DC 5F
+<3>[99047.633393][  T993] [NVT-ts] nvt_read_fw_history 1595: EA 21 70 70 02 C5 DB 17  46 9B 5A D9 1F D9 FA E6
+<3>[99047.633408][  T993] [NVT-ts] nvt_read_fw_history 1595: DB 24 51 40 C4 BB 88 0B  3C 5D 2F 78 1E 41 44 4B
+<3>[99047.633449][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99047.633459][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99047.633758][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99047.633776][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99047.633787][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99047.638837][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99047.638999][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99047.863867][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <230072 us>
+<3>[99047.863963][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99047.864092][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99047.864095][  T993] [NVT-ts] nvt_read_fw_history 1595: 03 E1 A1 31 FF 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864097][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864099][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864101][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 04 2E
+<3>[99047.864219][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99047.864221][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99047.864223][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864225][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864227][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2D
+<3>[99047.864349][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99047.864351][  T993] [NVT-ts] nvt_read_fw_history 1595: 06 E0 A5 76 8B 9B 99 70  36 7D A5 9D 29 E0 8F 8D
+<3>[99047.864353][  T993] [NVT-ts] nvt_read_fw_history 1595: 5B 91 14 21 93 B9 3B 5A  A5 93 F5 14 9F 84 8B E0
+<3>[99047.864356][  T993] [NVT-ts] nvt_read_fw_history 1595: B8 18 4C 08 75 88 25 3D  B4 55 09 C8 85 46 66 F2
+<3>[99047.864358][  T993] [NVT-ts] nvt_read_fw_history 1595: E8 C4 72 A2 9B 0E C0 EF  5F AD 68 51 AC FC 9C 93
+<3>[99047.864547][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99047.864565][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99047.864580][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864594][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99047.864608][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BD
+<3>[99047.892515][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99047.920548][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99048.060509][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<5>[99048.130837][ T1060] get_battery_temperature:30
+<5>[99048.142944][ T1060] get_battery_voltage:4243
+<5>[99048.161454][ T1060] get_battery_current:-1027
+<5>[99048.161476][ T1060] get_uisoc:84
+<5>[99048.161491][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99048.161505][ T1060] get_usb_type online:2 usb_type:1
+<5>[99048.168558][ T1060] Vbat=4243 vbats=4221 vbus:4950 ibus:0 I=-1027 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[99048.168593][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99048.168612][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[99048.168629][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[99048.168637][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[99048.168650][ T1060] mtk_charger_start_timer: alarm timer start:0, 99058 164254826
+<5>[99048.173416][ T1060] is_battery_exist:1
+<5>[99048.178136][ T1060] is_battery_exist:1
+<5>[99048.182904][ T1060] is_battery_exist:1
+<5>[99048.187676][ T1060] get_battery_voltage:4243
+<5>[99048.187812][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99048.187825][ T1060] get_uisoc:84
+<5>[99048.187836][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[99048.187842][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[99048.187858][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<3>[99048.192509][T32009] [NVT-ts] nvt_charger_notify_work 2643: USB plug in
+<3>[99048.192526][T32009] [NVT-ts] nvt_set_charger 1414: nvt set charger: 1
+<3>[99048.204518][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99048.204874][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.204894][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204910][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204923][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204935][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204948][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204960][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204971][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204983][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.204995][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205007][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205019][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.205324][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.205338][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205349][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205361][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205373][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205385][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205396][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205408][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205419][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205432][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205442][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.205454][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.206555][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.206557][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206559][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206561][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206564][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206566][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206568][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206570][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206573][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206575][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206577][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.206579][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.207939][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.207951][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.207963][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.207975][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.207986][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.207997][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208009][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208021][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208033][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208045][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208056][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.208068][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.209332][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.209349][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209363][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209376][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209388][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209403][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209415][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209428][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209441][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209453][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.209476][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.210578][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.210581][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210584][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210586][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210588][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210590][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210593][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210594][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210596][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210598][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210600][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.210601][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.211959][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.211971][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.211983][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.211995][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212006][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212018][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212030][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212042][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212053][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212066][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212077][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.212089][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.213270][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.213273][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213275][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213277][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213280][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213282][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213285][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213287][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213289][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213291][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213293][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.213296][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.214663][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.214676][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214687][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214699][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214710][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214722][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214734][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214745][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214757][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214769][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214780][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.214792][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.215960][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.215963][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215965][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215967][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215969][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215972][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215974][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215976][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215978][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215981][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215983][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.215985][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.217406][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99048.217628][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99048.217647][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.217663][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.217677][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.217692][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2E
+<3>[99048.217901][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99048.217917][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.217932][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.217945][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.217959][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2D
+<3>[99048.218177][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99048.218192][  T993] [NVT-ts] nvt_read_fw_history 1595: 06 E0 A5 76 8B 9B 99 70  36 7D A5 9D 29 E0 8F 8D
+<3>[99048.218206][  T993] [NVT-ts] nvt_read_fw_history 1595: 5B 91 14 21 93 B9 3B 5A  A5 93 F5 14 9F 84 8B E0
+<3>[99048.218221][  T993] [NVT-ts] nvt_read_fw_history 1595: B8 18 4C 08 75 88 25 3D  B4 55 09 C8 85 46 66 F2
+<3>[99048.218235][  T993] [NVT-ts] nvt_read_fw_history 1595: E8 C4 72 A2 9B 0E C0 EF  5F AD 68 51 AC FC 9C 93
+<3>[99048.218462][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99048.218477][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.218491][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.218505][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.218520][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BD
+<3>[99048.218562][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99048.218573][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99048.218830][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99048.218850][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99048.218861][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99048.223956][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99048.224124][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<5>[99048.270839][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[99048.270849][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[99048.270853][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[99048.270855][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(107 min)
+<5>[99048.276704][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[99048.277064][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[99048.277080][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[99048.277095][ T1060] chg_alg_set_current_limit
+<6>[99048.277109][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[99048.281861][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99048.353149][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99048.362678][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99048.362698][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[99048.362724][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99048.362741][ T1060] chg_alg_set_current_limit
+<5>[99048.362756][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<6>[99048.362768][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[99048.362770][ T1060] debug: 0, 0, 0
+<5>[99048.362780][ T1060] sck: 500000 -1 500000 -1 0
+<6>[99048.362794][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[99048.362805][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[99048.362837][ T1060] do_algorithm is_basic:1
+<5>[99048.362856][ T1060] pe50_get_prop 3
+<5>[99048.362866][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[99048.363217][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[99048.367931][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<3>[99048.438796][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219911 us>
+<3>[99048.438965][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<6>[99048.439123][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<3>[99048.439193][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99048.439216][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.439233][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439248][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439263][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2E
+<3>[99048.439459][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99048.439473][  T993] [NVT-ts] nvt_read_fw_history 1595: 05 E1 A1 31 25 01 FF 00  00 00 00 00 00 00 00 00
+<3>[99048.439486][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439499][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439512][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 05 2F
+<3>[99048.439730][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99048.439744][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.439757][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439767][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439769][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BE
+<3>[99048.439944][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99048.439947][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.439949][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439952][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.439955][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BD
+<5>[99048.448641][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99048.448665][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[99048.448695][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<3>[99048.464554][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99048.464724][T32009] [NVT-ts] nvt_set_charger 1432: nvt set charger on cmd succeeded
+<6>[99048.483298][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[99048.483298][ T1060] VBUS = 4931mV, IBUS = 0mA, VBAT = 4220mV, IBAT = 0mA, VSYS = 4222mV
+<6>[99048.483298][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[99048.483747][ T1060] get_uisoc:84
+<5>[99048.488443][ T1060] get_battery_current:-1027
+<5>[99048.488456][ T1060] [sc]disable_charger: 0
+<3>[99048.492534][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<5>[99048.495456][ T1060] get_uisoc:84
+<5>[99048.495474][ T1060] [sc1]en:0 t:0,80000,47458,32542 t:3600,28942,-1,-1 c:-1027,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[99048.495501][ T1060] charger_routine_thread end , 0
+<3>[99048.636502][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<6>[99048.686951][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4243, val_curr: -8170, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99048.686990][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47458, interval: 67), soc(soc: 84, uisoc: 84)
+<3>[99048.776522][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99048.776845][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.776862][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776877][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776889][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776902][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776914][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776925][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776937][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776949][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776960][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776972][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.776984][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.777743][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.777755][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777767][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777771][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777773][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777775][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777777][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777780][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777782][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777784][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777786][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.777788][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.779108][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.779120][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779132][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779143][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779155][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779167][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779179][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779192][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779203][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779215][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779226][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.779238][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.780447][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.780461][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780473][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780485][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780496][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780509][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780521][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780533][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780545][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780557][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780569][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.780582][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.781873][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.781887][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781900][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781911][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781923][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781935][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781947][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781959][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781971][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781983][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.781995][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.782007][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.783104][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.783106][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783109][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783111][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783113][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783115][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783117][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783120][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783122][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783124][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783126][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.783128][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.784461][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.784474][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784486][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784499][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784512][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784524][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784537][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784549][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784561][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784573][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784585][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.784596][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.785804][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.785807][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785810][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785812][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785814][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785816][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785819][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785821][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785823][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785825][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785828][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.785829][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.787209][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.787221][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787232][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787244][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787255][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787267][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787279][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787291][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787303][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787314][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787326][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.787338][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.788500][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99048.788513][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788525][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788538][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788550][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788563][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788574][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788586][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788599][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788611][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788623][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99048.788636][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99048.789964][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99048.790146][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99048.790164][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.790179][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790193][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790208][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2E
+<3>[99048.790424][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99048.790439][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.790453][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790465][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790479][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2F
+<3>[99048.790674][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99048.790689][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.790701][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790714][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790728][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BE
+<3>[99048.790912][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99048.790914][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99048.790916][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790919][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99048.790921][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BD
+<3>[99048.790944][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99048.790946][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99048.791035][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99048.791040][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99048.791043][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99048.796089][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99048.796246][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99049.011046][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219997 us>
+<3>[99049.011203][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99049.011406][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99049.011424][  T993] [NVT-ts] nvt_read_fw_history 1595: 05 E1 A1 31 25 01 FF 00  00 00 00 00 00 00 00 00
+<3>[99049.011439][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011453][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011466][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 05 30
+<3>[99049.011691][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99049.011705][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.011719][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011732][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011746][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2F
+<3>[99049.011901][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99049.011904][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.011907][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011909][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.011912][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BE
+<3>[99049.012050][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99049.012053][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.012055][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.012058][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.012061][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BF
+<3>[99049.036529][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99049.064518][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99049.204528][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99049.344525][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99049.344931][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.344952][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.344966][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.344980][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.344993][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345004][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345016][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345028][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345040][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345052][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345063][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345075][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.345379][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.345393][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345405][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345417][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345429][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345440][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345450][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345462][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345473][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345484][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345495][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.345506][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.346162][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.346165][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346167][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346169][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346172][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346174][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346176][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346179][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346181][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346183][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346185][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.346188][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.347563][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.347576][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347588][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347599][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347611][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347623][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347635][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347646][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347658][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347670][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347681][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.347693][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.348887][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.348890][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348892][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348895][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348897][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348899][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348901][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348903][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348905][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348908][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348910][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.348912][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.350276][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.350288][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350300][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350312][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350324][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350336][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350348][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350360][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350371][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350384][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350396][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.350408][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.351622][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.351633][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351645][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351656][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351667][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351678][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351689][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351700][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351711][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351722][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351733][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.351744][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.352921][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.352934][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.352947][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.352959][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.352972][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.352984][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.352996][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.353007][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.353020][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.353032][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.353043][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.353055][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.354281][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.354293][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354305][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354317][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354329][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354340][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354352][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354364][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354375][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354387][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354399][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.354410][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.355650][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.355662][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355675][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355686][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355699][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355711][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355723][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355735][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355747][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355760][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355771][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.355783][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.356961][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99049.357099][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99049.357102][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.357105][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357108][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357111][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 30
+<3>[99049.357246][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99049.357249][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.357252][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357255][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357257][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 2F
+<3>[99049.357421][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99049.357424][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.357427][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357430][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357432][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BE
+<3>[99049.357567][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99049.357569][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.357572][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357574][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.357577][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BF
+<3>[99049.357596][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99049.357597][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99049.357678][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99049.357696][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99049.357706][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99049.362797][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99049.362960][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99049.577613][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219881 us>
+<3>[99049.577818][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99049.578047][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99049.578063][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.578079][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578094][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578109][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 30
+<3>[99049.578325][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99049.578340][  T993] [NVT-ts] nvt_read_fw_history 1595: 05 E1 A1 31 25 01 FF 00  00 00 00 00 00 00 00 00
+<3>[99049.578355][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578369][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578382][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 05 31
+<3>[99049.578573][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99049.578588][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.578602][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578616][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578629][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C0
+<3>[99049.578819][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99049.578821][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.578824][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578826][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.578829][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BF
+<3>[99049.604546][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99049.632523][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99049.772532][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99049.912530][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99049.912910][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.912928][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.912942][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.912955][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.912967][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.912979][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.912991][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913003][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913014][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913026][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913038][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913050][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.913325][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.913338][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913349][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913361][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913373][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913384][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913396][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913408][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913420][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913431][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913442][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.913453][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.914645][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.914647][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914648][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914650][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914652][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914654][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914663][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914674][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914685][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914696][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914707][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.914719][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.916033][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.916045][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916057][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916069][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916080][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916092][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916104][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916116][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916128][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916139][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916151][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.916162][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.917427][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.917442][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917454][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917476][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917487][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917499][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917510][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917521][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917531][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917542][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.917552][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.918694][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.918696][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918698][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918700][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918701][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918703][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918705][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918706][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918708][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918709][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918711][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.918713][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.920045][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.920058][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920070][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920083][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920094][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920107][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920119][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920131][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920141][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920153][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920165][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.920177][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.921414][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.921429][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921441][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921453][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921477][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921489][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921501][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921512][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921524][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921536][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.921548][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.922785][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.922798][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922809][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922821][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922833][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922845][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922857][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922868][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922880][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922892][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922904][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.922916][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.924048][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99049.924050][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924053][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924055][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924057][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924059][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924061][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924064][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924066][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924068][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924070][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99049.924072][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99049.925465][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99049.925651][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99049.925667][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.925682][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.925696][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.925711][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 30
+<3>[99049.925918][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99049.925933][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.925947][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.925961][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.925976][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 31
+<3>[99049.926183][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99049.926197][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.926212][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.926225][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.926240][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C0
+<3>[99049.926465][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99049.926480][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99049.926494][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.926508][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99049.926522][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 BF
+<3>[99049.926563][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99049.926574][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99049.926802][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99049.926820][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99049.926831][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99049.931922][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99049.932083][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99050.146896][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <220040 us>
+<3>[99050.147091][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99050.147337][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99050.147355][  T993] [NVT-ts] nvt_read_fw_history 1595: 03 E1 A1 31 FF 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147370][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147384][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147398][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 05 32
+<3>[99050.147604][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99050.147619][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.147632][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147645][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147658][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 31
+<3>[99050.147846][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99050.147849][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.147852][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147855][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.147858][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C0
+<3>[99050.148025][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99050.148028][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.148030][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.148033][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.148036][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C1
+<3>[99050.172524][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99050.200518][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99050.340501][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99050.464525][T26676] [NVT-ts] nvt_charger_notify_work 2643: USB plug in
+<3>[99050.464544][T26676] [NVT-ts] nvt_set_charger 1414: nvt set charger: 1
+<3>[99050.480433][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99050.480666][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.480669][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480672][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480675][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480677][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480680][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480682][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480685][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480687][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480689][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480692][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.480694][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.481760][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.481762][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481764][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481765][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481767][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481769][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481771][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481772][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481774][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481776][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481777][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.481779][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.483102][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.483105][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483108][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483111][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483114][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483117][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483120][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483123][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483126][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483129][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483132][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.483135][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.484454][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.484457][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484458][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484460][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484462][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484464][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484467][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484469][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484471][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484472][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.484474][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.485835][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.485839][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485842][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485845][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485848][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485851][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485855][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485858][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485861][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485864][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485867][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.485870][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.487116][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.487118][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487120][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487121][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487123][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487125][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487127][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487129][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487130][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487132][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487134][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.487136][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.488464][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.488467][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488470][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488473][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488476][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488479][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488483][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488486][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488489][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488492][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488495][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.488498][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.489802][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.489805][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489806][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489808][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489810][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489812][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489813][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489815][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489816][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489818][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489820][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.489821][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.491180][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.491183][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491186][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491189][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491192][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491195][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491198][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491201][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491204][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491207][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491210][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.491213][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.492546][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99050.492548][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492550][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492552][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492554][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492555][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492557][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492559][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492560][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492562][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492564][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99050.492566][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99050.492662][T26676] [NVT-ts] nvt_set_charger 1432: nvt set charger on cmd succeeded
+<3>[99050.493902][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99050.494019][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99050.494023][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.494027][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494031][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494035][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 32
+<3>[99050.494164][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99050.494168][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.494171][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494175][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494178][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 31
+<3>[99050.494326][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99050.494330][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.494333][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494337][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494340][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C0
+<3>[99050.494493][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99050.494497][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.494501][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494505][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.494508][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C1
+<3>[99050.494529][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99050.494532][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99050.494596][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99050.494602][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99050.494605][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99050.499648][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99050.499809][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99050.714393][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219782 us>
+<3>[99050.714560][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99050.714778][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99050.714781][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.714784][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.714787][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.714789][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 32
+<3>[99050.714966][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99050.714969][  T993] [NVT-ts] nvt_read_fw_history 1595: 03 E1 A1 31 FF 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.714971][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.714973][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.714976][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 04 33
+<3>[99050.715120][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99050.715122][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.715124][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.715127][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.715130][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C2
+<3>[99050.715289][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99050.715291][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99050.715294][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.715297][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99050.715299][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C1
+<3>[99050.740517][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99050.768529][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99050.908510][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99051.048507][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99051.048902][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.048920][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048934][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048947][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048959][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048972][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048984][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.048997][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049010][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049021][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049034][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049046][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.049286][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.049299][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049312][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049323][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049335][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049348][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049360][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049372][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049384][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049396][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049408][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.049420][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.050236][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.050238][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050240][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050243][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050245][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050247][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050250][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050252][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050254][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050256][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050258][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.050261][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.051630][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.051642][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051654][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051666][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051678][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051691][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051703][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051715][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051727][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051738][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051750][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.051762][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.052968][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.052973][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052975][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052978][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052980][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052982][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052985][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052987][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052989][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052992][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052993][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.052996][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.054345][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.054358][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054370][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054382][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054394][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054406][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054417][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054429][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054441][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054453][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.054477][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.055677][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.055689][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055700][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055711][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055722][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055733][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055744][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055755][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055766][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055777][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055788][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.055793][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.057049][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.057063][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057075][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057088][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057101][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057113][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057125][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057136][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057147][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057159][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057171][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.057182][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.058357][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.058369][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058381][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058393][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058405][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058417][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058429][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058442][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058454][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058465][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058477][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.058489][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.059713][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.059725][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059738][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059750][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059763][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059775][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059788][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059799][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059812][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059824][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059835][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.059848][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.060998][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99051.061151][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99051.061154][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.061157][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061160][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061163][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 32
+<3>[99051.061340][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99051.061344][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.061346][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061349][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061352][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 33
+<3>[99051.061505][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99051.061507][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.061510][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061512][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061515][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C2
+<3>[99051.061684][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99051.061698][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.061712][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061724][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.061738][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C1
+<3>[99051.061776][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99051.061788][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99051.062045][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99051.062064][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99051.062076][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99051.067170][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99051.067330][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99051.281804][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219703 us>
+<3>[99051.281971][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99051.282207][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99051.282224][  T993] [NVT-ts] nvt_read_fw_history 1595: 03 E1 A1 31 FF 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282240][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282255][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282270][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 04 34
+<3>[99051.282495][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99051.282509][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.282522][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282536][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282549][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 33
+<3>[99051.282766][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99051.282769][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.282772][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282774][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282776][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C2
+<3>[99051.282941][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99051.282944][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.282947][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282949][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.282952][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C3
+<3>[99051.308542][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99051.336526][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<3>[99051.476498][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99051.616531][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99051.616995][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.617013][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617027][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617041][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617053][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617065][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617077][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617089][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617101][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617112][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617124][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617137][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.617384][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.617397][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617409][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617422][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617434][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617445][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617457][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617468][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617478][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617489][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617500][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.617511][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.618709][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.618722][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618733][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618745][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618757][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618768][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618780][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618791][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618803][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618814][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618825][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.618837][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.620109][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.620121][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620134][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620146][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620158][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620169][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620181][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620193][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620204][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620216][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620227][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.620239][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.621484][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.621499][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621511][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621521][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621532][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621543][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621553][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621564][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621575][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621586][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621597][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.621608][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.622733][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.622734][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622736][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622738][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622739][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622741][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622743][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622744][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622746][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622748][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622749][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.622751][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.624151][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.624163][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624174][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624186][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624197][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624209][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624221][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624233][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624245][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624256][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624268][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.624280][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.625460][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.625475][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625486][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625498][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625510][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625522][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625534][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625546][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625558][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625569][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625580][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.625592][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.626801][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.626813][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626825][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626837][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626849][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626861][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626873][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626885][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626897][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626909][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626921][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.626933][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.628124][  T993] [NVT-ts] nvt_ts_point_data_checksum 1629: i2c/spi packet checksum not match. (point_data[65]=0x0A, checksum=0xBA)
+<3>[99051.628126][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628129][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628131][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628133][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628136][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628138][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628140][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628143][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628145][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628148][  T993] [NVT-ts] nvt_ts_point_data_checksum 1633: FD FD FD FD FD FD
+<3>[99051.628149][  T993] [NVT-ts] nvt_ts_point_data_checksum 1636: FD FD 00 00 0A
+<3>[99051.629548][  T993] [NVT-ts] nvt_ts_work_func 1771: Recover for fw reset, FD
+<3>[99051.629752][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99051.629768][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.629783][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.629798][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.629812][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 34
+<3>[99051.630025][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99051.630040][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.630054][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630069][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630082][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 33
+<3>[99051.630315][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99051.630330][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.630344][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630357][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630372][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C2
+<3>[99051.630565][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99051.630580][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.630592][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630605][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.630617][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C3
+<3>[99051.630656][  T993] [NVT-ts] nvt_ts_work_func 1782: nvt_ts_work_func  ,BOOT TIANMA !
+<3>[99051.630666][  T993] [NVT-ts] update_firmware_request 332: filename is novatek_ts_fw_tm.bin
+<3>[99051.630830][  T993] [NVT-ts] nvt_get_fw_need_write_size 60: fw_need_write_size = 245760(0x3c000), NVT end flag
+<3>[99051.630838][  T993] [NVT-ts] nvt_bin_header_parser 153: cascade_2nd_header_info = 1
+<3>[99051.630840][  T993] [NVT-ts] nvt_bin_header_parser 187: ovly_info = 0, ilm_dlm_num = 2, ovly_sec_num = 0, info_sec_num = 14, partition = 16
+<3>[99051.635887][  T993] [NVT-ts] nvt_bootloader_reset 744: end
+<3>[99051.636048][  T993] [NVT-ts] nvt_tx_auto_copy_mode 573: tx auto copy mode 2 enable
+<3>[99051.850412][  T993] [NVT-ts] nvt_update_firmware 881: Update firmware success! <219567 us>
+<3>[99051.850523][  T993] [NVT-ts] nvt_get_fw_info 915: fw_ver=0x09, fw_type=0x01, PID=0x6080
+<3>[99051.850654][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121AFC: 
+<3>[99051.850657][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.850659][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850661][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850663][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 62 34
+<3>[99051.850811][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B3C: 
+<3>[99051.850813][  T993] [NVT-ts] nvt_read_fw_history 1595: 03 E1 A1 31 FF 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850815][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850817][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850818][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 00 04 35
+<3>[99051.850965][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121B80: 
+<3>[99051.850967][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.850969][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850971][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.850973][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C4
+<3>[99051.851097][  T993] [NVT-ts] nvt_read_fw_history 1586: fw history 0x121BC0: 
+<3>[99051.851099][  T993] [NVT-ts] nvt_read_fw_history 1595: 12 E1 A1 31 25 01 0F 10  A2 93 38 00 00 09 01 00
+<3>[99051.851101][  T993] [NVT-ts] nvt_read_fw_history 1595: 07 C0 27 FF 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.851103][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+<3>[99051.851105][  T993] [NVT-ts] nvt_read_fw_history 1595: 00 00 00 00 00 00 00 00  00 00 00 00 02 10 62 C3
+<3>[99051.876519][  T993] [NVT-ts] nvt_cmd_store 924: send Cmd 0xBA success, tried 0 times
+<3>[99051.904523][  T993] [NVT-ts] nvt_edge_grid_zone_set 1215: send Cmd 0x7F 0x01 success, tried 0 times
+<6>[99051.924589][T32219] [DISP]mtk_drm_crtc_mode_check++ from 0 to 0
+<3>[99051.924647][T32219] [DISP][E]mtk_atomic_doze_preparation connector has no crtc
+<3>[99051.924983][T32219] [NVT-ts] nvt_mtk_drm_notifier_callback 3855: event=0, *blank=1
+<3>[99051.925001][T32219] [NVT-ts] nvt_ts_suspend 3483: start
+<3>[99051.925013][T32219] [NVT-ts] nvt_ts_suspend 3490: nvt_ts_suspend,fzh, hallup_to_enable=1   bDoubleWakeupflag=0 
+<3>[99052.000504][T26676] [NVT-ts] nvt_charger_notify_work 2643: USB plug in
+<3>[99052.000521][T26676] [NVT-ts] nvt_set_charger 1414: nvt set charger: 1
+<3>[99052.052547][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x79 0x00 failed, buf[1]=0x79
+<3>[99052.196533][  T993] [NVT-ts] nvt_ext_cmd_store 966: send Cmd 0x7B 0x00 failed, buf[1]=0x7B
+<3>[99052.196703][T26676] [NVT-ts] nvt_set_charger 1432: nvt set charger on cmd succeeded
+<3>[99052.196749][T32219] [NVT-ts] nvt_irq_enable 300: enable=0, desc->depth=1
+<3>[99052.256506][T32219] [NVT-ts] nvt_ts_suspend 3582: nvt_ts_suspend,fzh2, hallup_to_enable=1   bDoubleWakeupflag=0 
+<3>[99052.256526][T32219] [NVT-ts] nvt_set_cs 2509: nvt_set_cs =0 :0 is low, 1 is high 
+<3>[99052.256578][T32219] [NVT-ts] nvt_ts_suspend 3595: end
+<6>[99052.256596][T32219] tianma_disable+++
+<6>[99052.256605][T32219] tianma_disable---
+<6>[99052.283430][T32219] tianma_unprepare+++
+<6>[99052.436491][T32219] tianma_unprepare--tm_tp_wakeup_flag tm:0
+<6>[99052.443656][T32219] tianma_unprepare---
+<6>[99052.445928][T32219] panel_ext_power_off--tm_tp_wakeup_flag boe:0
+<6>[99052.445959][T32219] get vddio_1v8-gpios.
+<6>[99052.529195][T25308] mtk_iommu: debug [trace] suspend |0x1         |        0 |0x0 |1e802000.iommu
+<6>[99052.529473][T25308] mtk_iommu: debug [trace] suspend |0x1         |        0 |0x1 |1e810000.iommu
+<5>[99052.529769][T32219] [mml][drm]mml_drm_put_context
+<3>[99052.529945][T32219] [DISP][E]mtk_drm_crtc_release_fence no session for CRTC0
+<6>[99052.529960][T32219] [DISP]CRTC0 release wakelock mtk_drm_crtc_suspend 12571
+<3>[99052.529992][T32219] [DISP][E]mtk_atomic_doze_finish connector has no crtc

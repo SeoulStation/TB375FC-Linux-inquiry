@@ -1,0 +1,1448 @@
+<5>[98857.464888][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98857.471901][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98857.472259][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98857.472277][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98857.472293][ T1060] chg_alg_set_current_limit
+<6>[98857.472307][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98857.472349][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98857.472362][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98857.477100][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98857.548310][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98857.557903][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98857.557920][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98857.557931][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98857.557947][ T1060] chg_alg_set_current_limit
+<5>[98857.557961][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98857.557975][ T1060] debug: 0, 0, 0
+<5>[98857.557986][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98857.557999][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98857.558026][ T1060] do_algorithm is_basic:1
+<5>[98857.558042][ T1060] pe50_get_prop 3
+<5>[98857.558052][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98857.558401][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98857.563162][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98857.634381][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98857.643799][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98857.643811][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98857.643826][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98857.680099][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98857.680099][ T1060] VBUS = 4900mV, IBUS = 0mA, VBAT = 4242mV, IBAT = 0mA, VSYS = 4235mV
+<6>[98857.680099][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98857.680561][ T1060] get_uisoc:85
+<5>[98857.685287][ T1060] get_battery_current:-775
+<5>[98857.685297][ T1060] [sc]disable_charger: 0
+<5>[98857.692300][ T1060] get_uisoc:85
+<5>[98857.692312][ T1060] [sc1]en:0 t:0,80000,47267,32733 t:3600,29133,-1,-1 c:-775,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98857.692338][ T1060] charger_routine_thread end , 0
+<6>[98859.246883][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4251, val_curr: -7610, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98859.246925][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47269, interval: 297), soc(soc: 85, uisoc: 85)
+<6>[98860.530182][   T65] [wdtk] kick watchdog
+<6>[98862.317135][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x10 cbit=0xff,ef,7,1,926962155,ff,0,0,0,0,[98862317121846,15000000] 29 ffffffff s_cpu 4 - 0 0 0 0 0 0 0 0
+<6>[98862.317135][  T404] 
+<6>[98862.317152][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:a71e CNTVCT:12b49427383 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427387
+<6>[98862.317170][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x90 cbit=0xff,6f,7,1,926962155,ff,0,0,0,0,[98862317156000,14999940] 29 ffffffff 
+<6>[98862.317197][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:a603 CNTVCT:12b4942749c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b4942748b
+<6>[98862.317201][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xb0 cbit=0xff,4f,7,1,926962155,ff,0,0,0,0,[98862317188231,14999908] 29 ffffffff 
+<6>[98862.317209][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:a63f CNTVCT:12b49427460 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427460
+<6>[98862.317235][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98862317221769,14999876] 29 ffffffff 
+<6>[98862.317256][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:a62f CNTVCT:12b49427470 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427477
+<6>[98862.317280][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xf8 cbit=0xff,7,7,1,926962155,ff,0,0,0,0,[98862317255385,14999843] 29 ffffffff 
+<6>[98862.317320][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xfa cbit=0xff,5,7,1,926962155,ff,0,0,0,0,[98862317297769,14999800] 29 ffffffff 
+<6>[98862.317324][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:0 CNTCV_TVAL:fffffc53 CNTVCT:12b49427558 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427544
+<6>[98862.317349][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98862317330461,14999760] 29 ffffffff 
+<6>[98862.317361][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:192eafff CNTVCT:12b4942762f SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427620
+<6>[98862.317371][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:0 CNTCV_TVAL:fffffaf5 CNTVCT:12b4942755b SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b4942754c
+<6>[98862.317775][  T401] [thread:401] 2026-11-24 13:07:52.86339 UTC;android time 2026-11-24 13:07:52.86339
+<6>[98862.318643][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98862317766154,14999324] 29 ffffffff 
+<6>[98862.318654][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:1b83 CNTVCT:12b49427558 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b49427547
+<6>[98864.366684][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4244, val_curr: -8190, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98864.366711][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47274, interval: 302), soc(soc: 85, uisoc: 85)
+<5>[98867.365208][ T1060] get_battery_temperature:30
+<5>[98867.377131][ T1060] get_battery_voltage:4251
+<5>[98867.395819][ T1060] get_battery_current:-763
+<5>[98867.395834][ T1060] get_uisoc:85
+<5>[98867.395847][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98867.395861][ T1060] get_usb_type online:2 usb_type:1
+<5>[98867.402882][ T1060] Vbat=4251 vbats=4241 vbus:4950 ibus:0 I=-763 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98867.402909][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98867.402923][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98867.402938][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98867.402946][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98867.402958][ T1060] mtk_charger_start_timer: alarm timer start:0, 98877 398563199
+<5>[98867.407632][ T1060] is_battery_exist:1
+<5>[98867.412286][ T1060] is_battery_exist:1
+<5>[98867.416995][ T1060] is_battery_exist:1
+<5>[98867.421767][ T1060] get_battery_voltage:4251
+<5>[98867.421890][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98867.421901][ T1060] get_uisoc:85
+<5>[98867.421912][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98867.421918][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98867.421934][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98867.507111][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98867.507130][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98867.507149][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98867.507161][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98867.514181][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98867.514532][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98867.514549][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98867.514564][ T1060] chg_alg_set_current_limit
+<6>[98867.514575][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98867.514610][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98867.514621][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98867.519342][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98867.590553][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98867.600015][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98867.600029][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98867.600040][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98867.600052][ T1060] chg_alg_set_current_limit
+<5>[98867.600063][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98867.600078][ T1060] debug: 0, 0, 0
+<5>[98867.600088][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98867.600102][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98867.600127][ T1060] do_algorithm is_basic:1
+<5>[98867.600139][ T1060] pe50_get_prop 3
+<5>[98867.600149][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98867.600509][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98867.605297][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98867.676469][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98867.685679][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98867.685692][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98867.685706][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98867.722069][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98867.722069][ T1060] VBUS = 4956mV, IBUS = 0mA, VBAT = 4241mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98867.722069][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98867.722522][ T1060] get_uisoc:85
+<5>[98867.727235][ T1060] get_battery_current:-783
+<5>[98867.727246][ T1060] [sc]disable_charger: 0
+<5>[98867.734246][ T1060] get_uisoc:85
+<5>[98867.734257][ T1060] [sc1]en:0 t:0,80000,47277,32723 t:3600,29123,-1,-1 c:-783,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98867.734282][ T1060] charger_routine_thread end , 0
+<6>[98869.486725][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4251, val_curr: -7790, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98869.486752][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47279, interval: 307), soc(soc: 85, uisoc: 85)
+<6>[98874.606751][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4251, val_curr: -7750, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98874.606772][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47284, interval: 312), soc(soc: 85, uisoc: 85)
+<6>[98876.030287][   T65] [wdtk] kick watchdog
+<6>[98877.376532][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x10 cbit=0xff,ef,7,1,926962155,ff,0,0,0,0,[98877376522497,15000000] 29 ffffffff s_cpu 4 - 0 0 0 0 0 0 0 0
+<6>[98877.376532][  T404] 
+<6>[98877.376547][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:c56e CNTVCT:12b54edb2d3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb2d0
+<5>[98877.407819][ T1060] get_battery_temperature:30
+<6>[98877.408579][  T399] [wdk-c] cpu=0 o_k=0 lbit=0x11 cbit=0xff,ee,7,1,926962155,ff,0,0,0,0,[98877408554190,14967958] 29 ffffffff 
+<6>[98877.408619][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:80eed CNTVCT:12b54edb380 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb373
+<6>[98877.414691][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x31 cbit=0xff,ce,7,1,926962155,ff,0,0,0,0,[98877414680574,14961823] 29 ffffffff 
+<6>[98877.414704][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:53df3 CNTVCT:12b54edb418 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb417
+<6>[98877.417166][  T406] [wdk-c] cpu=6 o_k=6 lbit=0x71 cbit=0xff,8e,7,1,926962155,ff,0,0,0,0,[98877417165190,14959331] 29 ffffffff 
+<6>[98877.417170][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:80de2 CNTVCT:12b54edb494 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb497
+<6>[98877.417249][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xf1 cbit=0xff,e,7,1,926962155,ff,0,0,0,0,[98877417237805,14959265] 29 ffffffff 
+<6>[98877.417264][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:80fd9 CNTVCT:12b54edb384 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb383
+<6>[98877.417267][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xf9 cbit=0xff,6,7,1,926962155,ff,0,0,0,0,[98877417261190,14959237] 29 ffffffff 
+<6>[98877.417281][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:8100f CNTVCT:12b54edb463 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb454
+<6>[98877.417294][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98877417288036,14959209] 29 ffffffff 
+<6>[98877.417305][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:810a2 CNTVCT:12b54edb4dc SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb4cf
+<6>[98877.418124][  T401] [thread:401] 2026-11-24 13:08:07.186686 UTC;android time 2026-11-24 13:08:07.186686
+<5>[98877.419821][ T1060] get_battery_voltage:4250
+<6>[98877.420988][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98877418100036,14958411] 29 ffffffff 
+<6>[98877.421015][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:83901 CNTVCT:12b54edb414 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b54edb407
+<5>[98877.438488][ T1060] get_battery_current:-757
+<5>[98877.438501][ T1060] get_uisoc:85
+<5>[98877.438511][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98877.438522][ T1060] get_usb_type online:2 usb_type:1
+<5>[98877.445504][ T1060] Vbat=4250 vbats=4238 vbus:4887 ibus:0 I=-757 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98877.445527][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98877.445537][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98877.445547][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98877.445554][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98877.445565][ T1060] mtk_charger_start_timer: alarm timer start:0, 98887 441169969
+<5>[98877.450271][ T1060] is_battery_exist:1
+<5>[98877.454959][ T1060] is_battery_exist:1
+<5>[98877.459605][ T1060] is_battery_exist:1
+<5>[98877.464309][ T1060] get_battery_voltage:4250
+<5>[98877.464441][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98877.464451][ T1060] get_uisoc:85
+<5>[98877.464459][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98877.464466][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98877.464479][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98877.549458][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98877.549475][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98877.549492][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98877.549503][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98877.556511][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98877.556845][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98877.556860][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98877.556873][ T1060] chg_alg_set_current_limit
+<6>[98877.556881][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98877.556911][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98877.556921][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98877.561714][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98877.632699][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98877.642111][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98877.642123][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98877.642133][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98877.642144][ T1060] chg_alg_set_current_limit
+<5>[98877.642154][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98877.642165][ T1060] debug: 0, 0, 0
+<5>[98877.642175][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98877.642187][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98877.642211][ T1060] do_algorithm is_basic:1
+<5>[98877.642221][ T1060] pe50_get_prop 3
+<5>[98877.642229][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98877.642551][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98877.647264][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98877.718451][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98877.727968][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98877.727981][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98877.727995][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98877.764316][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98877.764316][ T1060] VBUS = 4956mV, IBUS = 0mA, VBAT = 4241mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98877.764316][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98877.764772][ T1060] get_uisoc:85
+<5>[98877.769553][ T1060] get_battery_current:-1015
+<5>[98877.769564][ T1060] [sc]disable_charger: 0
+<5>[98877.776571][ T1060] get_uisoc:85
+<5>[98877.776582][ T1060] [sc1]en:0 t:0,80000,47287,32713 t:3600,29113,-1,-1 c:-1015,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98877.776607][ T1060] charger_routine_thread end , 0
+<6>[98879.726926][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4251, val_curr: -7730, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98879.726954][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47289, interval: 317), soc(soc: 85, uisoc: 85)
+<6>[98884.846756][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4250, val_curr: -7690, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98884.846777][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47294, interval: 322), soc(soc: 85, uisoc: 85)
+<6>[98886.624512][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<5>[98887.450465][ T1060] get_battery_temperature:30
+<5>[98887.462376][ T1060] get_battery_voltage:4250
+<5>[98887.481178][ T1060] get_battery_current:-763
+<5>[98887.481190][ T1060] get_uisoc:85
+<5>[98887.481201][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98887.481212][ T1060] get_usb_type online:2 usb_type:1
+<5>[98887.488201][ T1060] Vbat=4250 vbats=4241 vbus:4956 ibus:0 I=-763 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98887.488224][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98887.488236][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98887.488249][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98887.488258][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98887.488270][ T1060] mtk_charger_start_timer: alarm timer start:0, 98897 483875124
+<5>[98887.492963][ T1060] is_battery_exist:1
+<5>[98887.497621][ T1060] is_battery_exist:1
+<5>[98887.502308][ T1060] is_battery_exist:1
+<5>[98887.506990][ T1060] get_battery_voltage:4250
+<5>[98887.507114][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98887.507125][ T1060] get_uisoc:85
+<5>[98887.507134][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98887.507140][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98887.507156][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98887.592360][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98887.592378][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98887.592415][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98887.592427][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98887.599418][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98887.599769][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98887.599786][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98887.599800][ T1060] chg_alg_set_current_limit
+<6>[98887.599809][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98887.599840][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98887.599851][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98887.604622][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98887.675706][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98887.685132][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98887.685146][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98887.685156][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98887.685169][ T1060] chg_alg_set_current_limit
+<5>[98887.685179][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98887.685191][ T1060] debug: 0, 0, 0
+<5>[98887.685201][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98887.685214][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98887.685238][ T1060] do_algorithm is_basic:1
+<5>[98887.685250][ T1060] pe50_get_prop 3
+<5>[98887.685258][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98887.685597][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98887.690189][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98887.761328][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98887.770887][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98887.770900][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98887.770914][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98887.807291][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98887.807291][ T1060] VBUS = 4937mV, IBUS = 0mA, VBAT = 4241mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98887.807291][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98887.807746][ T1060] get_uisoc:85
+<5>[98887.812520][ T1060] get_battery_current:-769
+<5>[98887.812532][ T1060] [sc]disable_charger: 0
+<5>[98887.819550][ T1060] get_uisoc:85
+<5>[98887.819560][ T1060] [sc1]en:0 t:0,80000,47297,32703 t:3600,29103,-1,-1 c:-769,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98887.819585][ T1060] charger_routine_thread end , 0
+<6>[98889.966944][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4251, val_curr: -7680, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98889.966971][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47299, interval: 327), soc(soc: 85, uisoc: 85)
+<6>[98891.530398][   T65] [wdtk] kick watchdog
+<6>[98892.384503][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x10 cbit=0xff,ef,7,1,926962155,ff,0,0,0,0,[98892384493225,15000000] 30 ffffffff s_cpu 4 - 0 0 0 0 0 0 0 0
+<6>[98892.384503][  T404] 
+<6>[98892.384517][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:c6e5 CNTVCT:12b608ebe5f SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ebe5c
+<6>[98892.476609][  T406] [wdk-c] cpu=6 o_k=6 lbit=0x50 cbit=0xff,af,7,1,926962155,ff,0,0,0,0,[98892476597303,14907875] 30 ffffffff 
+<6>[98892.476626][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:123f9f CNTVCT:12b608ebfdf SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ebfdf
+<6>[98892.476637][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x70 cbit=0xff,8f,7,1,926962155,ff,0,0,0,0,[98892476625610,14907852] 30 ffffffff 
+<6>[98892.476655][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:1240fe CNTVCT:12b608ec044 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ec043
+<6>[98892.476660][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98892476649918,14907823] 30 ffffffff 
+<6>[98892.476676][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:c61b CNTVCT:12b608ebf24 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ebf24
+<6>[98892.476701][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[98892476678149,14907800] 30 ffffffff 
+<6>[98892.476739][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:1240bc CNTVCT:12b608ebf9b SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ebf8c
+<6>[98892.476742][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfa cbit=0xff,5,7,1,926962155,ff,0,0,0,0,[98892476718456,14907761] 30 ffffffff 
+<6>[98892.476772][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98892476754226,14907721] 30 ffffffff 
+<6>[98892.476784][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:124080 CNTVCT:12b608ec013 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ec003
+<6>[98892.476798][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:124588 CNTVCT:12b608ebee8 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ebed7
+<6>[98892.479513][  T401] [thread:401] 2026-11-24 13:08:22.248078 UTC;android time 2026-11-24 13:08:22.248078
+<6>[98892.480139][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98892479508610,14904961] 30 ffffffff 
+<6>[98892.480145][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:12d4c0 CNTVCT:12b608ec027 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b608ec01b
+<6>[98895.086797][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4250, val_curr: -7730, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98895.086825][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47304, interval: 332), soc(soc: 85, uisoc: 85)
+<5>[98897.493087][ T1060] get_battery_temperature:30
+<5>[98897.505012][ T1060] get_battery_voltage:4250
+<5>[98897.523726][ T1060] get_battery_current:-763
+<5>[98897.523741][ T1060] get_uisoc:85
+<5>[98897.523752][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98897.523765][ T1060] get_usb_type online:2 usb_type:1
+<5>[98897.530793][ T1060] Vbat=4250 vbats=4241 vbus:4918 ibus:0 I=-763 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98897.530817][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98897.530829][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98897.530841][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98897.530850][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98897.530862][ T1060] mtk_charger_start_timer: alarm timer start:0, 98907 526466586
+<5>[98897.535630][ T1060] is_battery_exist:1
+<5>[98897.540316][ T1060] is_battery_exist:1
+<5>[98897.544998][ T1060] is_battery_exist:1
+<5>[98897.549767][ T1060] get_battery_voltage:4250
+<5>[98897.549892][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98897.549904][ T1060] get_uisoc:85
+<5>[98897.549913][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98897.549919][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98897.549934][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98897.635102][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98897.635120][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98897.635138][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98897.635150][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98897.642134][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98897.642481][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98897.642498][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98897.642512][ T1060] chg_alg_set_current_limit
+<6>[98897.642521][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98897.642554][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98897.642565][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98897.647313][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98897.718558][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98897.727732][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98897.727744][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98897.727755][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98897.727767][ T1060] chg_alg_set_current_limit
+<5>[98897.727777][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98897.727791][ T1060] debug: 0, 0, 0
+<5>[98897.727801][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98897.727814][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98897.727839][ T1060] do_algorithm is_basic:1
+<5>[98897.727850][ T1060] pe50_get_prop 3
+<5>[98897.727859][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98897.728198][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98897.732849][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98897.804072][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98897.813475][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98897.813487][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98897.813501][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98897.849834][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98897.849834][ T1060] VBUS = 4975mV, IBUS = 0mA, VBAT = 4241mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98897.849834][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98897.850282][ T1060] get_uisoc:85
+<5>[98897.855051][ T1060] get_battery_current:-778
+<5>[98897.855064][ T1060] [sc]disable_charger: 0
+<5>[98897.862087][ T1060] get_uisoc:85
+<5>[98897.862098][ T1060] [sc1]en:0 t:0,80000,47307,32693 t:3600,29093,-1,-1 c:-778,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98897.862123][ T1060] charger_routine_thread end , 0
+<6>[98900.206660][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4250, val_curr: -7730, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98900.206685][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47309, interval: 337), soc(soc: 85, uisoc: 85)
+<6>[98905.326769][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4250, val_curr: -7710, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98905.326789][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47315, interval: 343), soc(soc: 85, uisoc: 85)
+<6>[98907.030476][   T65] [wdtk] kick watchdog
+<6>[98907.424498][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x10 cbit=0xff,ef,7,1,926962155,ff,0,0,0,0,[98907424488415,15000000] 30 ffffffff s_cpu 4 - 0 0 0 0 0 0 0 0
+<6>[98907.424498][  T404] 
+<6>[98907.424513][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:c72f CNTVCT:12b6c362413 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c362413
+<6>[98907.484583][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x90 cbit=0xff,6f,7,1,926962155,ff,0,0,0,0,[98907484572646,14939897] 30 ffffffff 
+<6>[98907.484598][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:be72b CNTVCT:12b6c3625b3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c3625b3
+<6>[98907.484618][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xb0 cbit=0xff,4f,7,1,926962155,ff,0,0,0,0,[98907484606877,14939866] 30 ffffffff 
+<6>[98907.484636][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:be72b CNTVCT:12b6c362623 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c362620
+<6>[98907.484648][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98907484637031,14939833] 30 ffffffff 
+<6>[98907.484664][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:be813 CNTVCT:12b6c3624f3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c3624f7
+<6>[98907.484724][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[98907484701338,14939777] 30 ffffffff 
+<6>[98907.484764][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfa cbit=0xff,5,7,1,926962155,ff,0,0,0,0,[98907484741646,14939736] 30 ffffffff 
+<6>[98907.484765][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:be8f2 CNTVCT:12b6c362670 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c36265f
+<6>[98907.484796][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98907484777261,14939695] 30 ffffffff 
+<6>[98907.484807][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:be8cb CNTVCT:12b6c3625cb SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c3625bc
+<6>[98907.484836][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:bea75 CNTVCT:12b6c36257c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c36256f
+<6>[98907.485250][  T401] [thread:401] 2026-11-24 13:08:37.253813 UTC;android time 2026-11-24 13:08:37.253813
+<6>[98907.486183][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98907485227492,14939248] 30 ffffffff 
+<6>[98907.486193][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:c0551 CNTVCT:12b6c36260c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b6c362600
+<5>[98907.535572][ T1060] get_battery_temperature:30
+<5>[98907.547528][ T1060] get_battery_voltage:4250
+<5>[98907.566186][ T1060] get_battery_current:-775
+<5>[98907.566200][ T1060] get_uisoc:85
+<5>[98907.566211][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98907.566223][ T1060] get_usb_type online:2 usb_type:1
+<5>[98907.573236][ T1060] Vbat=4250 vbats=4236 vbus:4962 ibus:0 I=-775 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98907.573261][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98907.573272][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98907.573284][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98907.573292][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98907.573304][ T1060] mtk_charger_start_timer: alarm timer start:0, 98917 568909279
+<5>[98907.578015][ T1060] is_battery_exist:1
+<5>[98907.582807][ T1060] is_battery_exist:1
+<5>[98907.587500][ T1060] is_battery_exist:1
+<5>[98907.592288][ T1060] get_battery_voltage:4250
+<5>[98907.592433][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98907.592445][ T1060] get_uisoc:85
+<5>[98907.592454][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98907.592459][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98907.592474][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98907.677671][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98907.677688][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98907.677707][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98907.677719][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(104 min)
+<5>[98907.684736][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98907.685083][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98907.685098][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98907.685112][ T1060] chg_alg_set_current_limit
+<6>[98907.685122][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98907.685153][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98907.685164][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98907.689934][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98907.761225][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98907.770717][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98907.770730][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98907.770739][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98907.770752][ T1060] chg_alg_set_current_limit
+<5>[98907.770761][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98907.770774][ T1060] debug: 0, 0, 0
+<5>[98907.770784][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98907.770796][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98907.770820][ T1060] do_algorithm is_basic:1
+<5>[98907.770831][ T1060] pe50_get_prop 3
+<5>[98907.770840][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98907.771178][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98907.775989][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98907.847227][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98907.856653][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98907.856665][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98907.856679][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98907.892966][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98907.892966][ T1060] VBUS = 4975mV, IBUS = 0mA, VBAT = 4241mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98907.892966][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98907.893419][ T1060] get_uisoc:85
+<5>[98907.898233][ T1060] get_battery_current:-949
+<5>[98907.898245][ T1060] [sc]disable_charger: 0
+<5>[98907.905253][ T1060] get_uisoc:85
+<5>[98907.905263][ T1060] [sc1]en:0 t:0,80000,47317,32683 t:3600,29083,-1,-1 c:-949,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98907.905287][ T1060] charger_routine_thread end , 0
+<6>[98910.446743][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4250, val_curr: -7870, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98910.446769][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47320, interval: 348), soc(soc: 85, uisoc: 85)
+<6>[98915.566789][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4249, val_curr: -7690, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98915.566809][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47325, interval: 353), soc(soc: 85, uisoc: 85)
+<6>[98917.344482][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<5>[98917.578107][ T1060] get_battery_temperature:30
+<5>[98917.589990][ T1060] get_battery_voltage:4249
+<5>[98917.608666][ T1060] get_battery_current:-769
+<5>[98917.608679][ T1060] get_uisoc:85
+<5>[98917.608689][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98917.608701][ T1060] get_usb_type online:2 usb_type:1
+<5>[98917.615723][ T1060] Vbat=4249 vbats=4241 vbus:4962 ibus:0 I=-769 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98917.615746][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98917.615757][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98917.615768][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98917.615777][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98917.615788][ T1060] mtk_charger_start_timer: alarm timer start:0, 98927 611393049
+<5>[98917.620485][ T1060] is_battery_exist:1
+<5>[98917.625152][ T1060] is_battery_exist:1
+<5>[98917.629825][ T1060] is_battery_exist:1
+<5>[98917.634519][ T1060] get_battery_voltage:4249
+<5>[98917.634643][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98917.634654][ T1060] get_uisoc:85
+<5>[98917.634663][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98917.634669][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98917.634684][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98917.719886][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98917.719903][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98917.719922][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98917.719934][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98917.726933][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98917.727285][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98917.727302][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98917.727315][ T1060] chg_alg_set_current_limit
+<6>[98917.727325][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98917.727356][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98917.727367][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98917.731981][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98917.803176][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98917.812695][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98917.812709][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98917.812719][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98917.812732][ T1060] chg_alg_set_current_limit
+<5>[98917.812741][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98917.812754][ T1060] debug: 0, 0, 0
+<5>[98917.812765][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98917.812777][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98917.812801][ T1060] do_algorithm is_basic:1
+<5>[98917.812813][ T1060] pe50_get_prop 3
+<5>[98917.812822][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98917.813165][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98917.817874][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98917.889077][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98917.898489][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98917.898503][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98917.898517][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98917.934853][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98917.934853][ T1060] VBUS = 4943mV, IBUS = 0mA, VBAT = 4240mV, IBAT = 0mA, VSYS = 4233mV
+<6>[98917.934853][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98917.935305][ T1060] get_uisoc:85
+<5>[98917.940080][ T1060] get_battery_current:-783
+<5>[98917.940092][ T1060] [sc]disable_charger: 0
+<5>[98917.947120][ T1060] get_uisoc:85
+<5>[98917.947130][ T1060] [sc1]en:0 t:0,80000,47327,32673 t:3600,29073,-1,-1 c:-783,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98917.947153][ T1060] charger_routine_thread end , 0
+<5>[98918.016746][T32007] USB_BOOST, <vcore_release(), 182> vcore_release: release usb vcore
+<5>[98918.016775][T32007] USB_BOOST, <boost_work(), 359> id:3, end of work
+<6>[98920.686834][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4249, val_curr: -7670, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98920.686857][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47330, interval: 358), soc(soc: 85, uisoc: 85)
+<6>[98922.524638][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x80 cbit=0xff,7f,7,1,926962155,ff,0,0,0,0,[98922524628682,15000000] 15 ffffffff s_cpu 7 - 0 0 0 0 0 0 0 0
+<6>[98922.524638][  T407] 
+<6>[98922.524654][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:bfda CNTVCT:12b77e97847 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97847
+<6>[98922.524663][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xa0 cbit=0xff,5f,7,1,926962155,ff,0,0,0,0,[98922524651836,14999961] 15 ffffffff 
+<6>[98922.524678][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:bfba CNTVCT:12b77e97867 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97867
+<6>[98922.524689][  T404] [wdk-c] cpu=4 o_k=4 lbit=0xb0 cbit=0xff,4f,7,1,926962155,ff,0,0,0,0,[98922524677297,14999937] 15 ffffffff 
+<6>[98922.524711][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:bfcf CNTVCT:12b77e97853 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97853
+<6>[98922.524713][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98922524701913,14999910] 15 ffffffff 
+<6>[98922.524732][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:bf8a CNTVCT:12b77e97898 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e9789b
+<6>[98922.524765][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[98922524744374,14999876] 15 ffffffff 
+<6>[98922.524794][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xf3 cbit=0xff,c,7,1,926962155,ff,0,0,0,0,[98922524775759,14999837] 15 ffffffff 
+<6>[98922.524803][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:0 CNTCV_TVAL:fffffcbd CNTVCT:12b77e9788c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e9787f
+<6>[98922.524831][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:49beaa0c CNTVCT:12b77e97c2f SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97c17
+<6>[98922.524838][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98922524815528,14999807] 15 ffffffff 
+<6>[98922.524852][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:0 CNTCV_TVAL:fffffde3 CNTVCT:12b77e97944 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97937
+<6>[98922.525531][  T401] [thread:401] 2026-11-24 13:08:52.294093 UTC;android time 2026-11-24 13:08:52.294093
+<6>[98922.526273][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98922525509913,14999106] 15 ffffffff 
+<6>[98922.526283][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:28f0 CNTVCT:12b77e97980 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b77e97974
+<6>[98922.530520][   T65] [wdtk] kick watchdog
+<6>[98925.806677][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4243, val_curr: -9760, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98925.806701][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47335, interval: 363), soc(soc: 85, uisoc: 85)
+<5>[98927.620674][ T1060] get_battery_temperature:30
+<5>[98927.632563][ T1060] get_battery_voltage:4243
+<5>[98927.651275][ T1060] get_battery_current:-1001
+<5>[98927.651289][ T1060] get_uisoc:85
+<5>[98927.651300][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98927.651311][ T1060] get_usb_type online:2 usb_type:1
+<5>[98927.658284][ T1060] Vbat=4243 vbats=4230 vbus:4943 ibus:0 I=-1001 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98927.658308][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98927.658319][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98927.658329][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98927.658336][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98927.658347][ T1060] mtk_charger_start_timer: alarm timer start:0, 98937 653951742
+<5>[98927.663039][ T1060] is_battery_exist:1
+<5>[98927.667722][ T1060] is_battery_exist:1
+<5>[98927.672388][ T1060] is_battery_exist:1
+<5>[98927.677080][ T1060] get_battery_voltage:4243
+<5>[98927.677199][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98927.677210][ T1060] get_uisoc:85
+<5>[98927.677219][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98927.677225][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98927.677238][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98927.762242][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98927.762258][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98927.762275][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98927.762285][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98927.769270][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98927.769602][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98927.769617][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98927.769630][ T1060] chg_alg_set_current_limit
+<6>[98927.769639][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98927.769669][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98927.769679][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98927.774433][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98927.845495][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98927.854834][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98927.854846][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98927.854855][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98927.854866][ T1060] chg_alg_set_current_limit
+<5>[98927.854875][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98927.854887][ T1060] debug: 0, 0, 0
+<5>[98927.854896][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98927.854907][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98927.854931][ T1060] do_algorithm is_basic:1
+<5>[98927.854940][ T1060] pe50_get_prop 3
+<5>[98927.854948][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98927.855268][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98927.859992][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98927.931071][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98927.940442][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98927.940455][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98927.940467][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98927.976529][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98927.976529][ T1060] VBUS = 4956mV, IBUS = 0mA, VBAT = 4230mV, IBAT = 0mA, VSYS = 4218mV
+<6>[98927.976529][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98927.976944][ T1060] get_uisoc:85
+<5>[98927.981595][ T1060] get_battery_current:-1004
+<5>[98927.981605][ T1060] [sc]disable_charger: 0
+<5>[98927.988568][ T1060] get_uisoc:85
+<5>[98927.988578][ T1060] [sc1]en:0 t:0,80000,47337,32663 t:3600,29063,-1,-1 c:-1004,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98927.988600][ T1060] charger_routine_thread end , 0
+<6>[98930.926722][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4242, val_curr: -10100, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98930.926748][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47340, interval: 368), soc(soc: 85, uisoc: 85)
+<6>[98936.046678][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4242, val_curr: -10070, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98936.046701][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47345, interval: 373), soc(soc: 85, uisoc: 85)
+<6>[98937.624744][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x20 cbit=0xff,df,7,1,926962155,ff,0,0,0,0,[98937624733718,15000000] 15 ffffffff s_cpu 5 - 0 0 0 0 0 0 0 0
+<6>[98937.624744][  T405] 
+<6>[98937.624761][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:ba9e CNTVCT:12b839cca60 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839cca60
+<6>[98937.624764][  T406] [wdk-c] cpu=6 o_k=6 lbit=0x60 cbit=0xff,9f,7,1,926962155,ff,0,0,0,0,[98937624754564,14999960] 15 ffffffff 
+<6>[98937.624781][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:ba07 CNTVCT:12b839ccaf7 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccaf8
+<6>[98937.624786][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x70 cbit=0xff,8f,7,1,926962155,ff,0,0,0,0,[98937624776179,14999940] 15 ffffffff 
+<6>[98937.624790][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98937624789641,14999919] 15 ffffffff 
+<6>[98937.624793][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:13329a7b CNTVCT:12b839ccba8 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccbab
+<6>[98937.624793][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:40ff3a CNTVCT:12b839ccae3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccae7
+<6>[98937.624824][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xf8 cbit=0xff,7,7,1,926962155,ff,0,0,0,0,[98937624804487,14999913] 15 ffffffff 
+<6>[98937.624854][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:0 CNTCV_TVAL:fffffd21 CNTVCT:12b839ccaaf SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccaa3
+<6>[98937.624856][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xf9 cbit=0xff,6,7,1,926962155,ff,0,0,0,0,[98937624837641,14999881] 15 ffffffff 
+<6>[98937.624868][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:0 CNTCV_TVAL:fffffe49 CNTVCT:12b839ccba0 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccb97
+<6>[98937.624882][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98937624865949,14999849] 15 ffffffff 
+<6>[98937.624891][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:0 CNTCV_TVAL:fffffd5a CNTVCT:12b839ccb7c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccb74
+<6>[98937.625486][  T401] [thread:401] 2026-11-24 13:09:07.394049 UTC;android time 2026-11-24 13:09:07.394049
+<6>[98937.626106][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98937625467256,14999249] 15 ffffffff 
+<6>[98937.626113][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:1fb9 CNTVCT:12b839cccf3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b839ccce8
+<5>[98937.663059][ T1060] get_battery_temperature:30
+<5>[98937.674891][ T1060] get_battery_voltage:4242
+<5>[98937.693579][ T1060] get_battery_current:-1018
+<5>[98937.693592][ T1060] get_uisoc:85
+<5>[98937.693602][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98937.693614][ T1060] get_usb_type online:2 usb_type:1
+<5>[98937.700609][ T1060] Vbat=4242 vbats=4227 vbus:4962 ibus:0 I=-1018 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98937.700632][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98937.700643][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98937.700653][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98937.700660][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98937.700671][ T1060] mtk_charger_start_timer: alarm timer start:0, 98947 696276127
+<5>[98937.705374][ T1060] is_battery_exist:1
+<5>[98937.710016][ T1060] is_battery_exist:1
+<5>[98937.714711][ T1060] is_battery_exist:1
+<5>[98937.719375][ T1060] get_battery_voltage:4242
+<5>[98937.719494][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98937.719505][ T1060] get_uisoc:85
+<5>[98937.719514][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98937.719520][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98937.719533][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98937.804469][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98937.804485][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98937.804502][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98937.804513][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98937.811474][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98937.811808][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98937.811823][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98937.811836][ T1060] chg_alg_set_current_limit
+<6>[98937.811844][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98937.811873][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98937.811883][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98937.816660][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98937.887665][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98937.897062][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98937.897075][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98937.897084][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98937.897095][ T1060] chg_alg_set_current_limit
+<5>[98937.897105][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98937.897117][ T1060] debug: 0, 0, 0
+<5>[98937.897126][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98937.897138][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98937.897162][ T1060] do_algorithm is_basic:1
+<5>[98937.897172][ T1060] pe50_get_prop 3
+<5>[98937.897180][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98937.897495][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98937.902241][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98937.973266][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98937.982644][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98937.982657][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98937.982669][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98938.018776][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98938.018776][ T1060] VBUS = 4950mV, IBUS = 0mA, VBAT = 4228mV, IBAT = 0mA, VSYS = 4217mV
+<6>[98938.018776][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98938.019188][ T1060] get_uisoc:85
+<5>[98938.023963][ T1060] get_battery_current:-1004
+<5>[98938.023974][ T1060] [sc]disable_charger: 0
+<6>[98938.030578][   T65] [wdtk] kick watchdog
+<5>[98938.030960][ T1060] get_uisoc:85
+<5>[98938.030973][ T1060] [sc1]en:0 t:0,80000,47347,32653 t:3600,29053,-1,-1 c:-1004,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98938.030996][ T1060] charger_routine_thread end , 0
+<6>[98941.166736][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4242, val_curr: -10030, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98941.166762][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47350, interval: 378), soc(soc: 85, uisoc: 85)
+<6>[98946.286704][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4241, val_curr: -10010, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98946.286727][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47356, interval: 384), soc(soc: 85, uisoc: 85)
+<5>[98947.705421][ T1060] get_battery_temperature:30
+<5>[98947.717218][ T1060] get_battery_voltage:4241
+<5>[98947.735900][ T1060] get_battery_current:-1007
+<5>[98947.735914][ T1060] get_uisoc:85
+<5>[98947.735924][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98947.735936][ T1060] get_usb_type online:2 usb_type:1
+<5>[98947.742912][ T1060] Vbat=4241 vbats=4227 vbus:4937 ibus:0 I=-1007 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98947.742935][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98947.742946][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98947.742956][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98947.742964][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98947.742975][ T1060] mtk_charger_start_timer: alarm timer start:0, 98957 738580127
+<5>[98947.747704][ T1060] is_battery_exist:1
+<5>[98947.752495][ T1060] is_battery_exist:1
+<5>[98947.757071][ T1060] is_battery_exist:1
+<5>[98947.761669][ T1060] get_battery_voltage:4241
+<5>[98947.761784][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98947.761794][ T1060] get_uisoc:85
+<5>[98947.761802][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98947.761808][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98947.761821][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98947.846733][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98947.846749][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98947.846766][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98947.846777][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98947.853746][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98947.854079][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98947.854094][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98947.854107][ T1060] chg_alg_set_current_limit
+<6>[98947.854116][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98947.854146][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98947.854156][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98947.858851][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98947.929910][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98947.939251][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98947.939264][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98947.939273][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98947.939284][ T1060] chg_alg_set_current_limit
+<5>[98947.939293][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98947.939305][ T1060] debug: 0, 0, 0
+<5>[98947.939314][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98947.939325][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98947.939349][ T1060] do_algorithm is_basic:1
+<5>[98947.939359][ T1060] pe50_get_prop 3
+<5>[98947.939367][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98947.939680][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98947.944428][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98948.015404][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98948.024828][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98948.024841][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98948.024854][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98948.060940][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98948.060940][ T1060] VBUS = 4937mV, IBUS = 0mA, VBAT = 4227mV, IBAT = 0mA, VSYS = 4217mV
+<6>[98948.060940][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98948.061365][ T1060] get_uisoc:85
+<6>[98948.064442][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<5>[98948.065985][ T1060] get_battery_current:-1013
+<5>[98948.065987][ T1060] [sc]disable_charger: 0
+<5>[98948.072945][ T1060] get_uisoc:85
+<5>[98948.072955][ T1060] [sc1]en:0 t:0,80000,47357,32643 t:3600,29043,-1,-1 c:-1013,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98948.072978][ T1060] charger_routine_thread end , 0
+<6>[98951.406713][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4241, val_curr: -10050, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98951.406738][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47361, interval: 389), soc(soc: 85, uisoc: 85)
+<6>[98952.724740][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x80 cbit=0xff,7f,7,1,926962155,ff,0,0,0,0,[98952724739215,15000000] 16 ffffffff s_cpu 7 - 0 0 0 0 0 0 0 0
+<6>[98952.724740][  T407] 
+<6>[98952.724743][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:b9c6 CNTVCT:12b8f501814 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f501818
+<6>[98952.724819][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xa0 cbit=0xff,5f,7,1,926962155,ff,0,0,0,0,[98952724808831,14999933] 16 ffffffff 
+<6>[98952.724836][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:b6 CNTVCT:12b8f501930 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f501930
+<6>[98952.724841][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xe0 cbit=0xff,1f,7,1,926962155,ff,0,0,0,0,[98952724830369,14999911] 16 ffffffff 
+<6>[98952.724856][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:135 CNTVCT:12b8f5018b3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f5018b4
+<6>[98952.724861][  T404] [wdk-c] cpu=4 o_k=4 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[98952724851600,14999890] 16 ffffffff 
+<6>[98952.724878][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:0 CNTCV_TVAL:fffffeb3 CNTVCT:12b8f501980 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f501980
+<6>[98952.724894][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[98952724875215,14999869] 16 ffffffff 
+<6>[98952.724922][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xf3 cbit=0xff,c,7,1,926962155,ff,0,0,0,0,[98952724903908,14999838] 16 ffffffff 
+<6>[98952.724923][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:4b CNTVCT:12b8f501968 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f50195f
+<6>[98952.724955][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:43 CNTVCT:12b8f5018f4 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f5018eb
+<6>[98952.724955][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98952724936139,14999810] 16 ffffffff 
+<6>[98952.724967][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:39c CNTVCT:12b8f501884 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f50187b
+<6>[98952.725436][  T401] [thread:401] 2026-11-24 13:09:22.493999 UTC;android time 2026-11-24 13:09:22.493999
+<6>[98952.726106][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98952725416831,14999328] 16 ffffffff 
+<6>[98952.726113][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:1e30 CNTVCT:12b8f5019eb SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b8f5019e0
+<6>[98953.530658][   T65] [wdtk] kick watchdog
+<6>[98956.526691][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4241, val_curr: -10100, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98956.526718][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47366, interval: 394), soc(soc: 85, uisoc: 85)
+<5>[98957.747788][ T1060] get_battery_temperature:30
+<5>[98957.759706][ T1060] get_battery_voltage:4241
+<5>[98957.778235][ T1060] get_battery_current:-1001
+<5>[98957.778249][ T1060] get_uisoc:85
+<5>[98957.778259][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98957.778271][ T1060] get_usb_type online:2 usb_type:1
+<5>[98957.785236][ T1060] Vbat=4241 vbats=4227 vbus:4931 ibus:0 I=-1001 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98957.785260][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98957.785271][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98957.785281][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98957.785288][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98957.785299][ T1060] mtk_charger_start_timer: alarm timer start:0, 98967 780903513
+<5>[98957.789867][ T1060] is_battery_exist:1
+<5>[98957.794479][ T1060] is_battery_exist:1
+<5>[98957.799162][ T1060] is_battery_exist:1
+<5>[98957.803847][ T1060] get_battery_voltage:4240
+<5>[98957.803962][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98957.803972][ T1060] get_uisoc:85
+<5>[98957.803981][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98957.803987][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98957.804000][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98957.888946][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98957.888963][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98957.888981][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98957.888992][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98957.895961][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98957.896290][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98957.896305][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98957.896318][ T1060] chg_alg_set_current_limit
+<6>[98957.896326][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98957.896357][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98957.896366][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<6>[98957.901056][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98957.972106][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98957.981497][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98957.981510][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98957.981519][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98957.981530][ T1060] chg_alg_set_current_limit
+<5>[98957.981539][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98957.981550][ T1060] debug: 0, 0, 0
+<5>[98957.981560][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98957.981573][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98957.981596][ T1060] do_algorithm is_basic:1
+<5>[98957.981606][ T1060] pe50_get_prop 3
+<5>[98957.981614][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98957.981928][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98957.986644][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98958.057706][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98958.067131][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98958.067142][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98958.067156][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98958.103262][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98958.103262][ T1060] VBUS = 4887mV, IBUS = 0mA, VBAT = 4227mV, IBAT = 0mA, VSYS = 4217mV
+<6>[98958.103262][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98958.103679][ T1060] get_uisoc:85
+<5>[98958.108334][ T1060] get_battery_current:-995
+<5>[98958.108345][ T1060] [sc]disable_charger: 0
+<5>[98958.115329][ T1060] get_uisoc:85
+<5>[98958.115339][ T1060] [sc1]en:0 t:0,80000,47367,32633 t:3600,29033,-1,-1 c:-995,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98958.115362][ T1060] charger_routine_thread end , 0
+<6>[98961.646652][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4240, val_curr: -10040, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98961.646678][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47371, interval: 399), soc(soc: 85, uisoc: 85)
+<6>[98966.766706][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4247, val_curr: -7730, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98966.766732][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47376, interval: 404), soc(soc: 85, uisoc: 85)
+<6>[98967.785457][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x20 cbit=0xff,df,7,1,926962155,ff,0,0,0,0,[98967785446713,15000000] 16 ffffffff s_cpu 5 - 0 0 0 0 0 0 0 0
+<6>[98967.785457][  T405] 
+<6>[98967.785475][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:967a CNTVCT:12b9afb9907 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9904
+<5>[98967.790118][ T1060] get_battery_temperature:30
+<6>[98967.792573][  T399] [wdk-c] cpu=0 o_k=0 lbit=0x21 cbit=0xff,de,7,1,926962155,ff,0,0,0,0,[98967792547867,14992886] 16 ffffffff 
+<6>[98967.792613][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:7d06c CNTVCT:12b9afb9953 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9944
+<5>[98967.801980][ T1060] get_battery_voltage:4247
+<6>[98967.808787][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x31 cbit=0xff,ce,7,1,926962155,ff,0,0,0,0,[98967808775867,14976656] 16 ffffffff 
+<6>[98967.808799][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:7cdbd CNTVCT:12b9afb995b SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9958
+<5>[98967.820616][ T1060] get_battery_current:-763
+<5>[98967.820631][ T1060] get_uisoc:85
+<5>[98967.820642][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98967.820654][ T1060] get_usb_type online:2 usb_type:1
+<6>[98967.824803][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xb1 cbit=0xff,4e,7,1,926962155,ff,0,0,0,0,[98967824792251,14960635] 16 ffffffff 
+<6>[98967.824820][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:95bb CNTVCT:12b9afb99c7 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb99cf
+<6>[98967.824847][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf1 cbit=0xff,e,7,1,926962155,ff,0,0,0,0,[98967824836559,14960590] 16 ffffffff 
+<6>[98967.824862][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:7cc7c CNTVCT:12b9afb9aa0 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9aa3
+<6>[98967.824873][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xf9 cbit=0xff,6,7,1,926962155,ff,0,0,0,0,[98967824866098,14960557] 16 ffffffff 
+<6>[98967.824887][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:7ccb4 CNTVCT:12b9afb9acc SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9abf
+<6>[98967.824908][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98967824902021,14960520] 16 ffffffff 
+<6>[98967.824920][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:7ce84 CNTVCT:12b9afb99dc SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb99cf
+<6>[98967.825614][  T401] [thread:401] 2026-11-24 13:09:37.594176 UTC;android time 2026-11-24 13:09:37.594176
+<5>[98967.827526][ T1060] Vbat=4247 vbats=4237 vbus:4937 ibus:0 I=-763 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98967.827530][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98967.827532][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98967.827535][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98967.827537][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98967.827539][ T1060] mtk_charger_start_timer: alarm timer start:0, 98977 823144359
+<6>[98967.828481][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98967825589482,14959844] 16 ffffffff 
+<6>[98967.828507][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:7ee04 CNTVCT:12b9afb9af7 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12b9afb9ae8
+<5>[98967.832170][ T1060] is_battery_exist:1
+<5>[98967.836838][ T1060] is_battery_exist:1
+<5>[98967.841507][ T1060] is_battery_exist:1
+<5>[98967.846200][ T1060] get_battery_voltage:4247
+<5>[98967.846318][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98967.846328][ T1060] get_uisoc:85
+<5>[98967.846337][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98967.846343][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98967.846357][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98967.931383][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98967.931409][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98967.931428][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98967.931439][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(105 min)
+<5>[98967.938426][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98967.938763][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98967.938778][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98967.938792][ T1060] chg_alg_set_current_limit
+<6>[98967.938803][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98967.943482][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98968.014482][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98968.023924][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98968.023940][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98968.023958][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98968.023972][ T1060] chg_alg_set_current_limit
+<6>[98968.023975][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[98968.023983][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98968.023991][ T1060] debug: 0, 0, 0
+<5>[98968.023997][ T1060] sck: 500000 -1 500000 -1 0
+<6>[98968.024005][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[98968.024014][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98968.024041][ T1060] do_algorithm is_basic:1
+<5>[98968.024055][ T1060] pe50_get_prop 3
+<5>[98968.024064][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98968.024387][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98968.029075][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98968.100119][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98968.109504][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98968.109518][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98968.109533][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98968.145640][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98968.145640][ T1060] VBUS = 4937mV, IBUS = 0mA, VBAT = 4228mV, IBAT = 0mA, VSYS = 4217mV
+<6>[98968.145640][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98968.146060][ T1060] get_uisoc:85
+<5>[98968.150825][ T1060] get_battery_current:-763
+<5>[98968.150836][ T1060] [sc]disable_charger: 0
+<5>[98968.157803][ T1060] get_uisoc:85
+<5>[98968.157812][ T1060] [sc1]en:0 t:0,80000,47377,32623 t:3600,29023,-1,-1 c:-763,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98968.157837][ T1060] charger_routine_thread end , 0
+<6>[98969.030723][   T65] [wdtk] kick watchdog
+<6>[98971.886661][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4240, val_curr: -8920, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98971.886686][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47381, interval: 409), soc(soc: 85, uisoc: 85)
+<5>[98975.634075][T32007] USB_BOOST, <boost_work(), 329> id:3, begin of work, timeout:60
+<5>[98975.636283][T32007] USB_BOOST, <vcore_hold(), 158> vcore_hold: set usb vcore (725000)
+<6>[98977.006814][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -8150, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98977.006841][T18424] mm8013 7-0055: soc_time(pre: 46972, now: 47386, interval: 414), soc(soc: 85, uisoc: 85)
+<5>[98977.832428][ T1060] get_battery_temperature:30
+<5>[98977.844333][ T1060] get_battery_voltage:4246
+<5>[98977.863091][ T1060] get_battery_current:-781
+<5>[98977.863105][ T1060] get_uisoc:85
+<5>[98977.863118][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98977.863132][ T1060] get_usb_type online:2 usb_type:1
+<5>[98977.870135][ T1060] Vbat=4246 vbats=4236 vbus:4950 ibus:0 I=-781 T=30 uisoc:85 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98977.870160][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98977.870173][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98977.870186][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98977.870194][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98977.870206][ T1060] mtk_charger_start_timer: alarm timer start:0, 98987 865810821
+<5>[98977.874926][ T1060] is_battery_exist:1
+<5>[98977.879747][ T1060] is_battery_exist:1
+<5>[98977.884500][ T1060] is_battery_exist:1
+<5>[98977.889210][ T1060] get_battery_voltage:4246
+<5>[98977.889339][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98977.889351][ T1060] get_uisoc:85
+<5>[98977.889361][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98977.889367][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98977.889383][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98977.974563][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98977.974584][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:85, batt_recharge_setting:95
+<5>[98977.974605][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98977.974617][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[98977.981620][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98977.981975][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98977.981992][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98977.982006][ T1060] chg_alg_set_current_limit
+<6>[98977.982017][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98977.986726][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98978.057923][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98978.067417][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98978.067432][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98978.067452][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98978.067466][ T1060] chg_alg_set_current_limit
+<5>[98978.067478][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<6>[98978.067482][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<6>[98978.067492][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[98978.067499][ T1060] debug: 0, 0, 0
+<5>[98978.067516][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98978.067530][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[98978.067554][ T1060] do_algorithm is_basic:1
+<5>[98978.067567][ T1060] pe50_get_prop 3
+<5>[98978.067576][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98978.067924][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98978.072674][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98978.143726][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98978.153024][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98978.153026][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98978.153028][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98978.188943][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98978.188943][ T1060] VBUS = 4893mV, IBUS = 0mA, VBAT = 4231mV, IBAT = 0mA, VSYS = 4218mV
+<6>[98978.188943][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98978.189366][ T1060] get_uisoc:85
+<5>[98978.194025][ T1060] get_battery_current:-781
+<5>[98978.194039][ T1060] [sc]disable_charger: 0
+<5>[98978.200628][ T1060] get_uisoc:85
+<5>[98978.200637][ T1060] [sc1]en:0 t:0,80000,47387,32613 t:3600,29013,-1,-1 c:-781,2000 ibus:0 uisoc: 85,80 s:3000 ans:ignore
+<5>[98978.200656][ T1060] charger_routine_thread end , 0
+<6>[98978.784434][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<6>[98982.126739][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7920, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98982.126747][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47391, interval: 419), soc(soc: 84, uisoc: 84)
+<3>[98982.136363][T18424] [mm8013_read_cyclecount] batt cyclecount read success ret is 2f
+<6>[98982.159739][T18424] time_to_full:14688, remain:ui:16 mah:16320, pre_current_now:-7920, current_now:4000, qmax:10200, chg_type:1
+<6>[98982.885601][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x80 cbit=0xff,7f,7,1,926962155,ff,0,0,0,0,[98982885586134,15000000] 17 ffffffff s_cpu 7 - 0 0 0 0 0 0 0 0
+<6>[98982.885601][  T407] 
+<6>[98982.885631][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:8f65 CNTVCT:12ba6aeecff SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed03
+<6>[98982.885632][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x90 cbit=0xff,6f,7,1,926962155,ff,0,0,0,0,[98982885617518,14999944] 17 ffffffff 
+<6>[98982.885644][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:8f3f CNTVCT:12ba6aeed1f SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed23
+<6>[98982.885663][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xd0 cbit=0xff,2f,7,1,926962155,ff,0,0,0,0,[98982885649749,14999913] 17 ffffffff 
+<6>[98982.885689][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:8f05 CNTVCT:12ba6aeed5c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed60
+<6>[98982.885707][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xd2 cbit=0xff,2d,7,1,926962155,ff,0,0,0,0,[98982885684287,14999881] 17 ffffffff 
+<6>[98982.885739][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[98982885725134,14999838] 17 ffffffff 
+<6>[98982.885747][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:0 CNTCV_TVAL:fffffb75 CNTVCT:12ba6aeed3f SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed44
+<6>[98982.885773][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:8eee CNTVCT:12ba6aeed74 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed68
+<6>[98982.885785][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfa cbit=0xff,5,7,1,926962155,ff,0,0,0,0,[98982885759595,14999805] 17 ffffffff 
+<6>[98982.885818][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98982885798441,14999761] 17 ffffffff 
+<6>[98982.885828][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:974e33 CNTVCT:12ba6aeefef SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeefe3
+<6>[98982.885861][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:0 CNTCV_TVAL:fffffd2f CNTVCT:12ba6aeed28 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeed1b
+<6>[98982.888421][  T401] [thread:401] 2026-11-24 13:09:52.656985 UTC;android time 2026-11-24 13:09:52.656985
+<6>[98982.889201][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98982888415364,14997151] 17 ffffffff 
+<6>[98982.889209][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:8d13 CNTVCT:12ba6aeee04 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12ba6aeedf7
+<6>[98984.530832][   T65] [wdtk] kick watchdog
+<6>[98987.246754][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4247, val_curr: -7790, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98987.246782][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47397, interval: 6), soc(soc: 84, uisoc: 84)
+<5>[98987.875159][ T1060] get_battery_temperature:30
+<5>[98987.887155][ T1060] get_battery_voltage:4246
+<5>[98987.905982][ T1060] get_battery_current:-766
+<5>[98987.905998][ T1060] get_uisoc:84
+<5>[98987.906011][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98987.906026][ T1060] get_usb_type online:2 usb_type:1
+<5>[98987.913044][ T1060] Vbat=4246 vbats=4237 vbus:4900 ibus:0 I=-766 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98987.913071][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98987.913088][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98987.913106][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98987.913114][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98987.913127][ T1060] mtk_charger_start_timer: alarm timer start:0, 98997 908732130
+<5>[98987.917879][ T1060] is_battery_exist:1
+<5>[98987.922587][ T1060] is_battery_exist:1
+<5>[98987.927392][ T1060] is_battery_exist:1
+<5>[98987.932171][ T1060] get_battery_voltage:4246
+<5>[98987.932298][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98987.932310][ T1060] get_uisoc:84
+<5>[98987.932320][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98987.932327][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98987.932342][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[98988.017539][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98988.017572][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[98988.017592][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98988.017604][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[98988.024635][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98988.024990][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98988.025007][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98988.025022][ T1060] chg_alg_set_current_limit
+<6>[98988.025035][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98988.029828][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98988.101053][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98988.110536][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98988.110553][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98988.110575][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98988.110592][ T1060] chg_alg_set_current_limit
+<6>[98988.110602][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[98988.110606][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98988.110619][ T1060] debug: 0, 0, 0
+<5>[98988.110624][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98988.110636][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<6>[98988.110646][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[98988.110669][ T1060] do_algorithm is_basic:1
+<5>[98988.110689][ T1060] pe50_get_prop 3
+<5>[98988.110698][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98988.111043][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98988.115840][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98988.187043][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98988.196628][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98988.196643][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98988.196660][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98988.232995][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98988.232995][ T1060] VBUS = 4943mV, IBUS = 0mA, VBAT = 4237mV, IBAT = 0mA, VSYS = 4230mV
+<6>[98988.232995][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98988.233451][ T1060] get_uisoc:84
+<5>[98988.238197][ T1060] get_battery_current:-766
+<5>[98988.238209][ T1060] [sc]disable_charger: 0
+<5>[98988.245218][ T1060] get_uisoc:84
+<5>[98988.245229][ T1060] [sc1]en:0 t:0,80000,47398,32602 t:3600,29002,-1,-1 c:-766,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[98988.245254][ T1060] charger_routine_thread end , 0
+<6>[98992.366836][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7760, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98992.366862][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47402, interval: 11), soc(soc: 84, uisoc: 84)
+<6>[98997.486694][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7720, update_time(chg: 120, curr: 0, soc: 120)
+<6>[98997.486715][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47407, interval: 16), soc(soc: 84, uisoc: 84)
+<6>[98997.913276][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x10 cbit=0xff,ef,7,1,926962155,ff,0,0,0,0,[98997913262708,15000000] 17 ffffffff s_cpu 4 - 0 0 0 0 0 0 0 0
+<6>[98997.913276][  T404] 
+<6>[98997.913295][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:9ffd CNTVCT:12bb253e107 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e108
+<5>[98997.918008][ T1060] get_battery_temperature:30
+<5>[98997.929876][ T1060] get_battery_voltage:4246
+<5>[98997.948680][ T1060] get_battery_current:-769
+<5>[98997.948693][ T1060] get_uisoc:84
+<5>[98997.948705][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98997.948717][ T1060] get_usb_type online:2 usb_type:1
+<5>[98997.955759][ T1060] Vbat=4246 vbats=4233 vbus:4937 ibus:0 I=-769 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[98997.955783][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98997.955795][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[98997.955808][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[98997.955816][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[98997.955828][ T1060] mtk_charger_start_timer: alarm timer start:0, 99007 951432976
+<5>[98997.960570][ T1060] is_battery_exist:1
+<5>[98997.965303][ T1060] is_battery_exist:1
+<5>[98997.970068][ T1060] is_battery_exist:1
+<5>[98997.974851][ T1060] get_battery_voltage:4246
+<5>[98997.974976][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[98997.974987][ T1060] get_uisoc:84
+<5>[98997.974996][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[98997.975003][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[98997.975019][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<6>[98997.985666][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x30 cbit=0xff,cf,7,1,926962155,ff,0,0,0,0,[98997985654708,14927583] 17 ffffffff 
+<6>[98997.985681][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:e57a7 CNTVCT:12bb253e347 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e344
+<6>[98997.985697][  T406] [wdk-c] cpu=6 o_k=6 lbit=0x70 cbit=0xff,8f,7,1,926962155,ff,0,0,0,0,[98997985685170,14927555] 17 ffffffff 
+<6>[98997.985713][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:e5a0b CNTVCT:12bb253e1fc SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e1ff
+<6>[98997.985758][  T399] [wdk-c] cpu=0 o_k=0 lbit=0x71 cbit=0xff,8e,7,1,926962155,ff,0,0,0,0,[98997985731323,14927512] 17 ffffffff 
+<6>[98997.985796][  T400] [wdk-c] cpu=1 o_k=1 lbit=0x73 cbit=0xff,8c,7,1,926962155,ff,0,0,0,0,[98997985777477,14927461] 17 ffffffff 
+<6>[98997.985803][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:e5b8a CNTVCT:12bb253e1f4 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e1e8
+<6>[98997.985833][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:e5c05 CNTVCT:12bb253e337 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e32b
+<6>[98997.985845][  T402] [wdk-c] cpu=3 o_k=3 lbit=0x7b cbit=0xff,84,7,1,926962155,ff,0,0,0,0,[98997985817170,14927429] 17 ffffffff 
+<6>[98997.985868][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[98997985855093,14927381] 17 ffffffff 
+<6>[98997.985875][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:9f16 CNTVCT:12bb253e1ec SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e1ec
+<6>[98997.985887][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:e5a8c CNTVCT:12bb253e30b SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e2ff
+<6>[98997.986501][  T401] [thread:401] 2026-11-24 13:10:07.755064 UTC;android time 2026-11-24 13:10:07.755064
+<6>[98997.987307][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[98997986477862,14926764] 17 ffffffff 
+<6>[98997.987317][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:e8053 CNTVCT:12bb253e1dc SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bb253e1cf
+<5>[98998.056217][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[98998.056240][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[98998.056262][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[98998.056274][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[98998.063296][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[98998.063650][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[98998.063666][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[98998.063680][ T1060] chg_alg_set_current_limit
+<6>[98998.063690][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[98998.068442][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98998.139601][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98998.149104][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98998.149120][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[98998.149140][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[98998.149153][ T1060] chg_alg_set_current_limit
+<5>[98998.149163][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<6>[98998.149173][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[98998.149176][ T1060] debug: 0, 0, 0
+<5>[98998.149183][ T1060] sck: 500000 -1 500000 -1 0
+<5>[98998.149193][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<6>[98998.149203][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[98998.149227][ T1060] do_algorithm is_basic:1
+<5>[98998.149239][ T1060] pe50_get_prop 3
+<5>[98998.149248][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[98998.149590][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[98998.154296][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[98998.225552][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[98998.234984][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[98998.234997][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[98998.235011][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[98998.271409][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[98998.271409][ T1060] VBUS = 4925mV, IBUS = 0mA, VBAT = 4237mV, IBAT = 0mA, VSYS = 4230mV
+<6>[98998.271409][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[98998.271859][ T1060] get_uisoc:84
+<5>[98998.276691][ T1060] get_battery_current:-769
+<5>[98998.276703][ T1060] [sc]disable_charger: 0
+<5>[98998.283706][ T1060] get_uisoc:84
+<5>[98998.283716][ T1060] [sc1]en:0 t:0,80000,47408,32592 t:3600,28992,-1,-1 c:-769,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[98998.283740][ T1060] charger_routine_thread end , 0
+<6>[99000.030915][   T65] [wdtk] kick watchdog
+<6>[99002.606856][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4247, val_curr: -7690, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99002.606884][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47412, interval: 21), soc(soc: 84, uisoc: 84)
+<6>[99007.726826][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4247, val_curr: -7680, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99007.726849][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47417, interval: 26), soc(soc: 84, uisoc: 84)
+<5>[99007.960680][ T1060] get_battery_temperature:30
+<5>[99007.972623][ T1060] get_battery_voltage:4247
+<5>[99007.991399][ T1060] get_battery_current:-766
+<5>[99007.991414][ T1060] get_uisoc:84
+<5>[99007.991425][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99007.991439][ T1060] get_usb_type online:2 usb_type:1
+<5>[99007.998427][ T1060] Vbat=4247 vbats=4237 vbus:4956 ibus:0 I=-766 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[99007.998452][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99007.998464][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[99007.998476][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[99007.998484][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[99007.998497][ T1060] mtk_charger_start_timer: alarm timer start:0, 99017 994101900
+<5>[99008.003201][ T1060] is_battery_exist:1
+<5>[99008.007855][ T1060] is_battery_exist:1
+<5>[99008.012563][ T1060] is_battery_exist:1
+<5>[99008.017325][ T1060] get_battery_voltage:4247
+<5>[99008.017450][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99008.017461][ T1060] get_uisoc:84
+<5>[99008.017471][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[99008.017477][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[99008.017493][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[99008.100674][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[99008.100693][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[99008.100713][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[99008.100723][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[99008.107693][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[99008.108042][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[99008.108058][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[99008.108072][ T1060] chg_alg_set_current_limit
+<6>[99008.108082][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[99008.112883][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99008.184089][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99008.193570][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99008.193583][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[99008.193604][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99008.193617][ T1060] chg_alg_set_current_limit
+<5>[99008.193627][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99008.193640][ T1060] debug: 0, 0, 0
+<5>[99008.193652][ T1060] sck: 500000 -1 500000 -1 0
+<6>[99008.193652][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[99008.193665][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<6>[99008.193676][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[99008.193699][ T1060] do_algorithm is_basic:1
+<5>[99008.193711][ T1060] pe50_get_prop 3
+<5>[99008.193719][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[99008.194063][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[99008.198831][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99008.270099][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99008.279657][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99008.279671][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[99008.279686][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[99008.314346][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[99008.314346][ T1060] VBUS = 4950mV, IBUS = 0mA, VBAT = 4237mV, IBAT = 0mA, VSYS = 4230mV
+<6>[99008.314346][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[99008.314798][ T1060] get_uisoc:84
+<5>[99008.319582][ T1060] get_battery_current:-766
+<5>[99008.319593][ T1060] [sc]disable_charger: 0
+<5>[99008.326617][ T1060] get_uisoc:84
+<5>[99008.326628][ T1060] [sc1]en:0 t:0,80000,47418,32582 t:3600,28982,-1,-1 c:-766,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[99008.326652][ T1060] charger_routine_thread end , 0
+<6>[99009.504518][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<6>[99012.846463][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4247, val_curr: -7690, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99012.846489][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47422, interval: 31), soc(soc: 84, uisoc: 84)
+<6>[99013.013420][  T407] [wdk-c] cpu=7 o_k=7 lbit=0x80 cbit=0xff,7f,7,1,926962155,ff,0,0,0,0,[99013013403667,15000000] 18 ffffffff s_cpu 7 - 0 0 0 0 0 0 0 0
+<6>[99013.013420][  T407] 
+<6>[99013.013435][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xa0 cbit=0xff,5f,7,1,926962155,ff,0,0,0,0,[99013013425898,14999954] 18 ffffffff 
+<6>[99013.013436][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:988d CNTVCT:12bbe073557 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe073558
+<6>[99013.013459][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:9843 CNTVCT:12bbe07359c SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe07359c
+<6>[99013.013460][  T404] [wdk-c] cpu=4 o_k=4 lbit=0xb0 cbit=0xff,4f,7,1,926962155,ff,0,0,0,0,[99013013450513,14999932] 18 ffffffff 
+<6>[99013.013479][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:984b CNTVCT:12bbe073597 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe073597
+<6>[99013.013483][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[99013013472282,14999908] 18 ffffffff 
+<6>[99013.013491][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:3d3b71f CNTVCT:12bbe073703 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe073704
+<6>[99013.013524][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf2 cbit=0xff,d,7,1,926962155,ff,0,0,0,0,[99013013501898,14999885] 18 ffffffff 
+<6>[99013.013555][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xf3 cbit=0xff,c,7,1,926962155,ff,0,0,0,0,[99013013536667,14999846] 18 ffffffff 
+<6>[99013.013563][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:0 CNTCV_TVAL:fffffa0f CNTVCT:12bbe073777 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe07376b
+<6>[99013.013592][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:0 CNTCV_TVAL:fffffbba CNTVCT:12bbe073648 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe07363b
+<6>[99013.013596][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[99013013573205,14999814] 18 ffffffff 
+<6>[99013.013612][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:0 CNTCV_TVAL:fffffc3d CNTVCT:12bbe0735e8 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe0735db
+<6>[99013.014162][  T401] [thread:401] 2026-11-24 13:10:22.782724 UTC;android time 2026-11-24 13:10:22.782724
+<6>[99013.015918][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[99013014142744,14999239] 18 ffffffff 
+<6>[99013.015924][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:219b CNTVCT:12bbe073723 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bbe073714
+<6>[99015.531010][   T65] [wdtk] kick watchdog
+<6>[99017.966759][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7890, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99017.966785][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47427, interval: 36), soc(soc: 84, uisoc: 84)
+<5>[99018.003372][ T1060] get_battery_temperature:30
+<5>[99018.015239][ T1060] get_battery_voltage:4246
+<5>[99018.033942][ T1060] get_battery_current:-766
+<5>[99018.033957][ T1060] get_uisoc:84
+<5>[99018.033968][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99018.033982][ T1060] get_usb_type online:2 usb_type:1
+<5>[99018.040985][ T1060] Vbat=4246 vbats=4237 vbus:4943 ibus:0 I=-766 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[99018.041010][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99018.041022][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[99018.041035][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[99018.041044][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[99018.041056][ T1060] mtk_charger_start_timer: alarm timer start:0, 99028 36660132
+<5>[99018.045777][ T1060] is_battery_exist:1
+<5>[99018.050542][ T1060] is_battery_exist:1
+<5>[99018.055204][ T1060] is_battery_exist:1
+<5>[99018.059909][ T1060] get_battery_voltage:4246
+<5>[99018.060033][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99018.060045][ T1060] get_uisoc:84
+<5>[99018.060054][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[99018.060060][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[99018.060076][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[99018.145249][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[99018.145267][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[99018.145288][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[99018.145299][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[99018.152305][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[99018.152668][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[99018.152684][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[99018.152698][ T1060] chg_alg_set_current_limit
+<6>[99018.152707][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[99018.157403][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99018.228656][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99018.238056][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99018.238071][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[99018.238092][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99018.238105][ T1060] chg_alg_set_current_limit
+<5>[99018.238115][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99018.238129][ T1060] debug: 0, 0, 0
+<6>[99018.238131][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[99018.238139][ T1060] sck: 500000 -1 500000 -1 0
+<6>[99018.238151][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[99018.238160][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[99018.238188][ T1060] do_algorithm is_basic:1
+<5>[99018.238199][ T1060] pe50_get_prop 3
+<5>[99018.238208][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[99018.238549][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[99018.243356][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99018.314546][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99018.324136][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99018.324148][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[99018.324163][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[99018.358335][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[99018.358335][ T1060] VBUS = 4943mV, IBUS = 0mA, VBAT = 4237mV, IBAT = 0mA, VSYS = 4230mV
+<6>[99018.358335][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[99018.358789][ T1060] get_uisoc:84
+<5>[99018.363526][ T1060] get_battery_current:-766
+<5>[99018.363537][ T1060] [sc]disable_charger: 0
+<5>[99018.370560][ T1060] get_uisoc:84
+<5>[99018.370571][ T1060] [sc1]en:0 t:0,80000,47428,32572 t:3600,28972,-1,-1 c:-766,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[99018.370596][ T1060] charger_routine_thread end , 0
+<6>[99023.086782][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7740, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99023.086805][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47432, interval: 41), soc(soc: 84, uisoc: 84)
+<5>[99028.045880][ T1060] get_battery_temperature:30
+<6>[99028.048639][  T399] [wdk-c] cpu=0 o_k=0 lbit=0x1 cbit=0xff,fe,7,1,926962155,ff,0,0,0,0,[99028048617857,15000000] 18 ffffffff s_cpu 0 - 0 0 0 0 0 0 0 0
+<6>[99028.048639][  T399] 
+<6>[99028.048678][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:1 CNTCV_TVAL:c19b CNTVCT:12bc9ada728 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada71b
+<5>[99028.057757][ T1060] get_battery_voltage:4246
+<6>[99028.064483][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x11 cbit=0xff,ee,7,1,926962155,ff,0,0,0,0,[99028064472087,14984101] 18 ffffffff 
+<6>[99028.064494][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:ce21 CNTVCT:12bc9ada8b8 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada8b8
+<5>[99028.076204][ T1060] get_battery_current:-763
+<5>[99028.076217][ T1060] get_uisoc:84
+<5>[99028.076227][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99028.076238][ T1060] get_usb_type online:2 usb_type:1
+<5>[99028.083201][ T1060] Vbat=4246 vbats=4237 vbus:4943 ibus:0 I=-763 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[99028.083224][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99028.083234][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[99028.083244][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[99028.083252][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[99028.083263][ T1060] mtk_charger_start_timer: alarm timer start:0, 99038 78867747
+<5>[99028.088026][ T1060] is_battery_exist:1
+<5>[99028.092736][ T1060] is_battery_exist:1
+<5>[99028.097515][ T1060] is_battery_exist:1
+<5>[99028.102219][ T1060] get_battery_voltage:4246
+<5>[99028.102342][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99028.102352][ T1060] get_uisoc:84
+<5>[99028.102361][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[99028.102368][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[99028.102383][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<6>[99028.113532][  T406] [wdk-c] cpu=6 o_k=6 lbit=0x51 cbit=0xff,ae,7,1,926962155,ff,0,0,0,0,[99028113521318,14935051] 18 ffffffff 
+<6>[99028.113549][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:cda51 CNTVCT:12bc9ada91b SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada91c
+<6>[99028.113559][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xd1 cbit=0xff,2e,7,1,926962155,ff,0,0,0,0,[99028113549011,14935023] 18 ffffffff 
+<6>[99028.113575][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:cdb9f CNTVCT:12bc9ada974 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada977
+<6>[99028.113607][  T405] [wdk-c] cpu=5 o_k=5 lbit=0xf1 cbit=0xff,e,7,1,926962155,ff,0,0,0,0,[99028113595395,14934978] 18 ffffffff 
+<6>[99028.113624][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:cda0e CNTVCT:12bc9ada9e3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada9e4
+<6>[99028.113654][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xf9 cbit=0xff,6,7,1,926962155,ff,0,0,0,0,[99028113629011,14934954] 18 ffffffff 
+<6>[99028.113702][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:1 CNTCV_TVAL:cdac1 CNTVCT:12bc9ada9c4 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9ada9b4
+<6>[99028.113752][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[99028113724011,14934856] 18 ffffffff 
+<6>[99028.113798][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:1 CNTCV_TVAL:cdb48 CNTVCT:12bc9adaa68 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9adaa5c
+<6>[99028.115249][  T401] [thread:401] 2026-11-24 13:10:37.883813 UTC;android time 2026-11-24 13:10:37.883813
+<6>[99028.115960][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[99028115240703,14933331] 18 ffffffff 
+<6>[99028.115972][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:d31c3 CNTVCT:12bc9adaaab SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bc9adaa9f
+<5>[99028.187386][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[99028.187404][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[99028.187421][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[99028.187432][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(106 min)
+<5>[99028.194389][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[99028.194724][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[99028.194739][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[99028.194751][ T1060] chg_alg_set_current_limit
+<6>[99028.194760][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[99028.206699][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99028.211584][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7720, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99028.211607][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47437, interval: 46), soc(soc: 84, uisoc: 84)
+<6>[99028.277712][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99028.287113][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99028.287126][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[99028.287144][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99028.287156][ T1060] chg_alg_set_current_limit
+<5>[99028.287165][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99028.287176][ T1060] debug: 0, 0, 0
+<6>[99028.287186][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[99028.287186][ T1060] sck: 500000 -1 500000 -1 0
+<5>[99028.287196][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<6>[99028.287206][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[99028.287226][ T1060] do_algorithm is_basic:1
+<5>[99028.287236][ T1060] pe50_get_prop 3
+<5>[99028.287244][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[99028.287572][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[99028.292261][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99028.363310][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99028.372663][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99028.372675][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[99028.372687][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[99028.408822][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[99028.408822][ T1060] VBUS = 4943mV, IBUS = 0mA, VBAT = 4226mV, IBAT = 0mA, VSYS = 4216mV
+<6>[99028.408822][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[99028.409243][ T1060] get_uisoc:84
+<5>[99028.413958][ T1060] get_battery_current:-763
+<5>[99028.413969][ T1060] [sc]disable_charger: 0
+<5>[99028.420963][ T1060] get_uisoc:84
+<5>[99028.420972][ T1060] [sc1]en:0 t:0,80000,47438,32562 t:3600,28962,-1,-1 c:-763,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[99028.420995][ T1060] charger_routine_thread end , 0
+<6>[99031.031113][   T65] [wdtk] kick watchdog
+<6>[99033.326723][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7700, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99033.326748][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47443, interval: 52), soc(soc: 84, uisoc: 84)
+<5>[99038.088153][ T1060] get_battery_temperature:30
+<5>[99038.100080][ T1060] get_battery_voltage:4246
+<5>[99038.118854][ T1060] get_battery_current:-769
+<5>[99038.118869][ T1060] get_uisoc:84
+<5>[99038.118880][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99038.118892][ T1060] get_usb_type online:2 usb_type:1
+<5>[99038.125914][ T1060] Vbat=4246 vbats=4237 vbus:4956 ibus:0 I=-769 T=30 uisoc:84 type:usb>usb pd:6 swchg_ibat:0 cv:4500000 cmd_pp:-1
+<5>[99038.125940][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99038.125952][ T1060] usb_temp_protect fail get thermal_dev 
+<5>[99038.125964][ T1060] usb_temp_protect set vbus_mos_gpio low
+<5>[99038.125973][ T1060] usb_temp_protect  lyy usb_temp is 0, vbus_gpio is 441 
+<5>[99038.125985][ T1060] mtk_charger_start_timer: alarm timer start:0, 99048 121589287
+<5>[99038.130685][ T1060] is_battery_exist:1
+<5>[99038.135495][ T1060] is_battery_exist:1
+<5>[99038.140280][ T1060] is_battery_exist:1
+<5>[99038.145082][ T1060] get_battery_voltage:4246
+<5>[99038.145208][ T1060] get_charger_type online:2 type:4 usb_type:1
+<5>[99038.145219][ T1060] get_uisoc:84
+<5>[99038.145228][ T1060] [SW_JEITA]pre_sm:3,sm:3,tmp:30
+<5>[99038.145234][ T1060] [SW_JEITA] Battery Normal Temperature between 15 and 45 !!
+<5>[99038.145248][ T1060] [SW_JEITA]preState:3 newState:3 tmp:30 cv:4500000 fcc:9000000 term:1900000
+<5>[99038.230492][ T1060] wtchg_is_batt_protection_setting_eu 0 0 0
+<5>[99038.230512][ T1060] wtchg_check_charge_full is_chg_done:0, pe5_is_chg_done:0, uisoc:84, batt_recharge_setting:95
+<5>[99038.230531][ T1060] wtchg_check_charge_full force_is_chg_done:0, force_pe5_is_chg_done:0, batt_recharge_running:0
+<5>[99038.230542][ T1060] mtk_chg_check_charging_safe_time: chg_done: 0, pe5_chg_done: 0, safe charging_time(107 min)
+<5>[99038.237540][ T1060] tmp:30 (jeita:1 sm:3 cv:4500000 en:1) (sm:1) en:1 c:0 s:0 ov:0 0 sc:0 1 1 saf_cmd:-1 bat_mon:0 0
+<5>[99038.237893][ T1060] maintenance_v10(enable: 0, cycle: 0, chg_cv: 4500000, fg_cv: 4530000), maintenance_v20(enable: 0, chg_cv: 4500000, fg_cv: 4530000)
+<5>[99038.237909][ T1060] maintenance_mode(chg_cv: 4500000, setting_cv: 4500000, fg_cv_pre: 4530000, fg_cv:4530000, fg_batt_cv: 0)
+<5>[99038.237923][ T1060] chg_alg_set_current_limit
+<6>[99038.237933][ T1060] [PE50]pe50_set_current_limit input_current = -1, ibat = 9000, vbat_cv = 4515, init_cv = 4500, term = 1900
+<6>[99038.242727][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99038.305179][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99038.314533][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99038.314546][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<5>[99038.314567][ T1060] support_fast_charging pe5 ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99038.314580][ T1060] chg_alg_set_current_limit
+<5>[99038.314589][ T1060] support_fast_charging pd ret:ALG_TA_NOT_SUPPORT pd_hardreset_times:1 pe50_auth_ta_fail: 0
+<5>[99038.314603][ T1060] debug: 0, 0, 0
+<6>[99038.314603][ T1074] [PE50]pe50_algo_threadfn state = STOP
+<5>[99038.314614][ T1060] sck: 500000 -1 500000 -1 0
+<6>[99038.314625][ T1074] [PE50]pe50_algo_threadfn PE5.0 STOP
+<5>[99038.314635][ T1060] m:3 chg1:-1,-1,500,500 chg2:-1,-1,0,0 dvchg1:-1 sc:500000 -1 0 type:4:6 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0 bm:0 b:1
+<5>[99038.314663][ T1060] do_algorithm is_basic:1
+<5>[99038.314673][ T1060] pe50_get_prop 3
+<5>[99038.314682][ T1060] pe5_alg_get_prop:  pe5_is_chg_done: 0
+<5>[99038.315024][ T1060] do_algorithm:old_cv=4500000,cv=4500000, vbat_mon_en=0, fcc=9000000
+<6>[99038.319710][ T1060] [PE50]pe50_check_thermal_level tbat(30,4)
+<6>[99038.390873][ T1060] [PE50]pe50_check_thermal_level tdvchg(28,4)
+<5>[99038.400286][ T1060] pd_adapter pd-adapter: pd_authentication pd type is not snk apdo
+<5>[99038.400299][ T1060] pe50_hal_is_pd_adapter_ready type:6
+<3>[99038.400313][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_chg_enable_charging: =1
+<6>[99038.436640][ T1060] mt6375-chg 11f01000.i2c:mt6375@34:chg: mt6375_dump_registers CC = 500mA, AICR = 500mA, MIVR = 4600mV, IEOC = 300mA, CV = 4500mV
+<6>[99038.436640][ T1060] VBUS = 4918mV, IBUS = 0mA, VBAT = 4237mV, IBAT = 0mA, VSYS = 4228mV
+<6>[99038.436640][ T1060] CHG_STAT = 0x04, CHG_STAT0 = 0xC1, CHG_STAT1 = 0x00, CHG_TOP1 = 0xA1, CHG_TOP2 = 0x43, CHG_EOC = 0x52
+<5>[99038.436995][ T1060] get_uisoc:84
+<5>[99038.446783][ T1060] get_battery_current:-769
+<5>[99038.446795][ T1060] [sc]disable_charger: 0
+<6>[99038.451658][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7690, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99038.451682][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47448, interval: 57), soc(soc: 84, uisoc: 84)
+<5>[99038.453799][ T1060] get_uisoc:84
+<5>[99038.453813][ T1060] [sc1]en:0 t:0,80000,47448,32552 t:3600,28952,-1,-1 c:-769,2000 ibus:0 uisoc: 84,80 s:3000 ans:ignore
+<5>[99038.453837][ T1060] charger_routine_thread end , 0
+<6>[99040.224499][  T410] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+<6>[99043.148733][  T405] [wdk-c] cpu=5 o_k=5 lbit=0x20 cbit=0xff,df,7,1,926962155,ff,0,0,0,0,[99043148717969,15000000] 18 ffffffff s_cpu 5 - 0 0 0 0 0 0 0 0
+<6>[99043.148733][  T405] 
+<6>[99043.148747][  T405] wdt_dump_cntcv CPU:5 CNTCV_CTL:1 CNTCV_TVAL:bb71 CNTVCT:12bd560fa33 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fa37
+<6>[99043.148756][  T404] [wdk-c] cpu=4 o_k=4 lbit=0x30 cbit=0xff,cf,7,1,926962155,ff,0,0,0,0,[99043148742277,14999955] 18 ffffffff 
+<6>[99043.148777][  T407] [wdk-c] cpu=7 o_k=7 lbit=0xb0 cbit=0xff,4f,7,1,926962155,ff,0,0,0,0,[99043148766816,14999928] 18 ffffffff 
+<6>[99043.148778][  T404] wdt_dump_cntcv CPU:4 CNTCV_CTL:1 CNTCV_TVAL:bb28 CNTVCT:12bd560fa78 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fa7b
+<6>[99043.148802][  T407] wdt_dump_cntcv CPU:7 CNTCV_CTL:1 CNTCV_TVAL:ba8e CNTVCT:12bd560fb13 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fb13
+<6>[99043.148801][  T406] [wdk-c] cpu=6 o_k=6 lbit=0xf0 cbit=0xff,f,7,1,926962155,ff,0,0,0,0,[99043148790277,14999906] 18 ffffffff 
+<6>[99043.148812][  T406] wdt_dump_cntcv CPU:6 CNTCV_CTL:1 CNTCV_TVAL:50122e CNTVCT:12bd560fbf3 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fbf3
+<6>[99043.148844][  T399] [wdk-c] cpu=0 o_k=0 lbit=0xf1 cbit=0xff,e,7,1,926962155,ff,0,0,0,0,[99043148821354,14999882] 18 ffffffff 
+<6>[99043.148872][  T400] [wdk-c] cpu=1 o_k=1 lbit=0xf3 cbit=0xff,c,7,1,926962155,ff,0,0,0,0,[99043148854893,14999841] 18 ffffffff 
+<6>[99043.148883][  T399] wdt_dump_cntcv CPU:0 CNTCV_CTL:0 CNTCV_TVAL:fffffe17 CNTVCT:12bd560fbd8 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fbcb
+<6>[99043.148896][  T400] wdt_dump_cntcv CPU:1 CNTCV_CTL:0 CNTCV_TVAL:fffffe2e CNTVCT:12bd560fa93 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fa84
+<6>[99043.148912][  T402] [wdk-c] cpu=3 o_k=3 lbit=0xfb cbit=0xff,4,7,1,926962155,ff,0,0,0,0,[99043148891123,14999811] 18 ffffffff 
+<6>[99043.148951][  T402] wdt_dump_cntcv CPU:3 CNTCV_CTL:0 CNTCV_TVAL:fffffe1e CNTVCT:12bd560fab7 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560faa8
+<6>[99043.149397][  T401] [thread:401] 2026-11-24 13:10:52.917960 UTC;android time 2026-11-24 13:10:52.917960
+<6>[99043.150211][  T401] [wdk-k] cpu=2 o_k=2 lbit=0xff cbit=0xff,0,7,1,926962155,ff,0,0,0,0,[99043149374893,14999324] 18 ffffffff 
+<6>[99043.150220][  T401] wdt_dump_cntcv CPU:2 CNTCV_CTL:1 CNTCV_TVAL:1da8 CNTVCT:12bd560fb53 SYST_CNTCR:4490d SYST_DISTL:0 SYST_CNTCV:12bd560fb44
+<6>[99043.566718][T18424] mm8013 7-0055: mm8013_get_uisoc: chr_type: 4, aicl: 500000, batt_volt: 4246, val_curr: -7680, update_time(chg: 120, curr: 0, soc: 120)
+<6>[99043.566741][T18424] mm8013 7-0055: soc_time(pre: 47391, now: 47453, interval: 62), soc(soc: 84, uisoc: 84)

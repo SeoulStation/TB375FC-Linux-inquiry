@@ -1,0 +1,4 @@
+  read_pre                                                   0               0
+  read_post                                                  0               0
+  write_pre                                                  1               0
+  write_post                                                 1               0

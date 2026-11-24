@@ -1,0 +1,80 @@
+CPU=cpu7
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801618
+dropped events: 0
+read events: 0
+
+CPU=cpu6
+entries: 2
+overrun: 0
+commit overrun: 0
+bytes: 100
+oldest event ts: 19824.438050
+now ts: 19824.801630
+dropped events: 0
+read events: 0
+
+CPU=cpu5
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801639
+dropped events: 0
+read events: 0
+
+CPU=cpu4
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801647
+dropped events: 0
+read events: 0
+
+CPU=cpu3
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801656
+dropped events: 0
+read events: 0
+
+CPU=cpu2
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801666
+dropped events: 0
+read events: 0
+
+CPU=cpu1
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801675
+dropped events: 0
+read events: 0
+
+CPU=cpu0
+entries: 0
+overrun: 0
+commit overrun: 0
+bytes: 0
+oldest event ts:     0.000000
+now ts: 19824.801683
+dropped events: 0
+read events: 0
+
