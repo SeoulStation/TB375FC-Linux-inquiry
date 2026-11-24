@@ -30,3 +30,7 @@ The verifier reads these local files only. It verifies SHA256SUMS and checks sel
 The exact matching vendor driver C source is not included. No fresh hardware experiment was performed to prepare this publication. Working C/assembly/Python files are provided for review with their original dependencies and boot-specific bindings; they are not a standalone build.
 
 For posting instructions, see [GitHub 사용 안내](GITHUB-UPLOAD.ko.md). A public repository is a place to host evidence; it does not automatically notify relevant developers.
+
+## Historical optical photos
+
+[Gallery, contact sheets and all 30 original photographs](evidence/photos-20261101/README.md) from the 2026-11-01 A candidate **third activation** are available. This is a separate historical trial, not the 2026-11-24 FIRST/SECOND comparison. The separately supplied frames 028 and 029 are included once each, with original bytes preserved.

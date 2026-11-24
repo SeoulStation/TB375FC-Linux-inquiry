@@ -1,0 +1,287 @@
+{
+  "Schema": 1,
+  "Kind": "HISTORICAL_A_THIRD_ACTIVATION_PHOTOS",
+  "DateLabel": "2026-11-01 KST",
+  "Context": "Earlier A candidate, third activation in the same boot; not 2026-11-24 FIRST/SECOND",
+  "BootId": "fecfdb5e-12b7-45f0-9f0d-32e2b72be42e",
+  "OriginalPhotos": [
+    {
+      "File": "originals/20261101_094755_001.jpg",
+      "Bytes": 3241938,
+      "SHA256": "7929daab3b2bea7ecea1c21ea5413ecb7f781e9f2dfe5d6f96a0ea8fb7abaabd",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "db87c4f6658c5d29f0d830eae215954b776665e8"
+    },
+    {
+      "File": "originals/20261101_094755_002.jpg",
+      "Bytes": 3227544,
+      "SHA256": "37ccb49cacd63086b6e070962accafda484c6824232d609010c9baeea627646e",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "e2bb553a670a81c820852848756728a91fb3403b"
+    },
+    {
+      "File": "originals/20261101_094755_003.jpg",
+      "Bytes": 3199609,
+      "SHA256": "ad0beb896ab46351857a7c2bc404feeec3054f06a69427d9ecfcbeee76022cca",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "77ee908e675877c57d4c6a6946b2c6e3f2326d3b"
+    },
+    {
+      "File": "originals/20261101_094755_004.jpg",
+      "Bytes": 3198840,
+      "SHA256": "ba533a37681d075ab3d7dc502c46a760822d891cee73e982a6f5740582500cce",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "53fb4e3099bc0085490c6a339ed16cef52aae9c2"
+    },
+    {
+      "File": "originals/20261101_094755_005.jpg",
+      "Bytes": 3123618,
+      "SHA256": "968d4918d0cc48076a65d120dd45192f3aa08f4b0214e709459ebcdd6dce18c4",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "4cfa10499f7827848916ca71a2e106c2e1469a2a"
+    },
+    {
+      "File": "originals/20261101_094755_006.jpg",
+      "Bytes": 3125016,
+      "SHA256": "193d6ca3ef835ab022971cccb9bce239cecc8d2f9de6c925835e55c931764c82",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "b2f9fb7413be1ec52a342aaa9cf849e711de1187"
+    },
+    {
+      "File": "originals/20261101_094755_007.jpg",
+      "Bytes": 3252038,
+      "SHA256": "386ed2269acb3c403b64b93f9f57db13bbc46ba58dbe10a2f85397612c9f6a4d",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "313c5afaca37c1a8d07126b0c6322a13396c86d9"
+    },
+    {
+      "File": "originals/20261101_094755_008.jpg",
+      "Bytes": 3239776,
+      "SHA256": "26e715176d5e4be89281571df82aba16a1cf581a5d97969fda9c1a93ac5d31d7",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "0091401de85fe5e8f5c9d1b7bd20898446eb660e"
+    },
+    {
+      "File": "originals/20261101_094755_009.jpg",
+      "Bytes": 3216440,
+      "SHA256": "47afb8b83c36a5ef1da1ed383f71a3a21a5686192d87d4b70d72a858b4601941",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "7243fd9223cbb21d1d7e54327c738c720f85ab19"
+    },
+    {
+      "File": "originals/20261101_094755_010.jpg",
+      "Bytes": 3207990,
+      "SHA256": "19431cf9c638c4e4b966ada6597ea6a0838ba77d000e3aa928bb3b842efe0110",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "63fed56e0c790c1210bdea59c1a7163c6af67b48"
+    },
+    {
+      "File": "originals/20261101_094755_011.jpg",
+      "Bytes": 3219895,
+      "SHA256": "a1d8897681d3807e13103f42d6cb7b047b9b7db5f9ab173e08f8adddff02221e",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "e33a62ec545879ce8942786a8e91def3bf6efae3"
+    },
+    {
+      "File": "originals/20261101_094755_012.jpg",
+      "Bytes": 3131568,
+      "SHA256": "7043bf7dd45bf974fa7d72192a2209550c59dcc953a6e907d5f7f64f81efec55",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "62ca07d7bdd4e46385ed3841877805cd6ea69b49"
+    },
+    {
+      "File": "originals/20261101_094755_013.jpg",
+      "Bytes": 3074840,
+      "SHA256": "f32cf6daac440bbdfadaf92b3019e188a3c6d056c69b83baa92d065121dfcd79",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "d6fa4ece2216bb1fc6936e2a6c56a7c78bf2108c"
+    },
+    {
+      "File": "originals/20261101_094755_014.jpg",
+      "Bytes": 3094849,
+      "SHA256": "3c1699787ad3766f4762078d0eb1c152c1ca07c15308029347d25aa8fff647a6",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "ed01de5ae90fedbdf261d9d3ab6dc002932086b9"
+    },
+    {
+      "File": "originals/20261101_094755_015.jpg",
+      "Bytes": 3113053,
+      "SHA256": "39da6ebba7c392ffa3396e5c48f41c567a7e4170943d1ffca6e1948b1a890418",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "929874e803dc5d16e7acea3d3bb20267c799ec16"
+    },
+    {
+      "File": "originals/20261101_094755_016.jpg",
+      "Bytes": 3190984,
+      "SHA256": "068c3052ea4f9f709931ecff9b5fbbeac95eba2d3b90388615e73760384dc0fa",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "765708d28358be517c085fe60a717be8f1746c4e"
+    },
+    {
+      "File": "originals/20261101_094755_017.jpg",
+      "Bytes": 3199287,
+      "SHA256": "db43b42303cc683857ab6fa4df131256cb71ef1a7692bc1c161fe4452de0e31a",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "c0cdbbb3f03d932d2df635b763f4280e9e9e9e91"
+    },
+    {
+      "File": "originals/20261101_094755_018.jpg",
+      "Bytes": 3162037,
+      "SHA256": "b8e7ddd9ca7816ec59d1e7b8ca5239229f78e5b05163dec8d72a52baee766a54",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "4c3139c192d29fce5d1e28f0f12e29f7022157d9"
+    },
+    {
+      "File": "originals/20261101_094755_019.jpg",
+      "Bytes": 3120543,
+      "SHA256": "fb88a0e58a18e5bc595013e88ef94e44f20da0682cf531bdca7ed97a39d5985e",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "f4815130fdbb3441223cf601f8729cf7fa968128"
+    },
+    {
+      "File": "originals/20261101_094755_020.jpg",
+      "Bytes": 3161813,
+      "SHA256": "1714b72ea3e801f90f1a92674409a11f302b6ff0f818cce006417d5145e8af2a",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "df0e9b71eb36139038dc77a911e5b368772b8c0c"
+    },
+    {
+      "File": "originals/20261101_094755_021.jpg",
+      "Bytes": 3221829,
+      "SHA256": "6a9900d481bef795d53048a435f9dd3fe77ebaf782f3ad23449d6972ea740c08",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "446dc4ae0ce5d2980c72429aa2cb524989bae4d2"
+    },
+    {
+      "File": "originals/20261101_094755_022.jpg",
+      "Bytes": 3224646,
+      "SHA256": "06df5cf7af90cfaa4e7004410c3e65366f35c02ce19bbf179ea8638d1c8f37a0",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "e1aed399bf17a59fe15dff7502a835e01bd548a1"
+    },
+    {
+      "File": "originals/20261101_094755_023.jpg",
+      "Bytes": 3255087,
+      "SHA256": "72afcd5bb56b32f0a8033cdb947239cb899e0adb5cbccacd932bcf6aefdf21d5",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "4c29eedbff27f395459a62cd04678006ed8b3b67"
+    },
+    {
+      "File": "originals/20261101_094755_024.jpg",
+      "Bytes": 3262216,
+      "SHA256": "712a0292119b42c90732f71f381da545efc45033c1793503e70e173dcd6cb699",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "62f51515cc0117b35e2a31f8a1c3e5819056137e"
+    },
+    {
+      "File": "originals/20261101_094755_025.jpg",
+      "Bytes": 3292155,
+      "SHA256": "e3c771b5dfc263b548ad0060f9db9548636c4ac40747d34cf0b6cef08844567c",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "96ea66ed1d524a4a349ab7ae78318db88ae1cef9"
+    },
+    {
+      "File": "originals/20261101_094755_026.jpg",
+      "Bytes": 3350718,
+      "SHA256": "de220bd7d17e01ac272931cc26dddca33b8b915f54eba6fbd0d22ca3b50dcf2e",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "7138fecba3e7140abaea16a04eee37155e7ded7e"
+    },
+    {
+      "File": "originals/20261101_094755_027.jpg",
+      "Bytes": 3353356,
+      "SHA256": "738481d3c9b8c3c5c4ed8ef0a00eaee9158f486266fe9c396f55be6b3db4ed72",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "bf0ea0faea1b9d1b525f67d43fb624e6c406f912"
+    },
+    {
+      "File": "originals/20261101_094755_028.jpg",
+      "Bytes": 3284667,
+      "SHA256": "118768dc3015beb7fdb900a292397a53d31848bd7f4e9e20a2bce66038d6001d",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "1b617f7ff6e9507147ec6bdd89abac1b2794d64e"
+    },
+    {
+      "File": "originals/20261101_094755_029.jpg",
+      "Bytes": 3314865,
+      "SHA256": "1aa885b9676662206fd0c70acaa1bf324ca123460b70b41e2c74ae2102213637",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "aa726dc46cbdbecf91747b291d29a8c916068741"
+    },
+    {
+      "File": "originals/20261101_094755_030.jpg",
+      "Bytes": 3278505,
+      "SHA256": "245c7eb51fc7d300a3e0581016ed8e3876e791067a3672a1aaa628010cd60d49",
+      "Width": 4080,
+      "Height": 2296,
+      "OriginalBytesPreserved": true,
+      "GitBlobSHA1": "5969e755db24f461ddd8e62587601ce6af0df59a"
+    }
+  ],
+  "DesktopDuplicates": [
+    "20261101_094755_028.jpg",
+    "20261101_094755_029.jpg"
+  ],
+  "ClockSynchronizationEstablished": false,
+  "ContactSheets": "Derived thumbnails for navigation only; originals unchanged",
+  "MatchedHistoricalObservationHashes": true,
+  "HistoricalObservationSource": "P/logs/a-activation/20261101-004730-590-LaterAActivation-c82efeb0/user-photo-observation.json"
+}

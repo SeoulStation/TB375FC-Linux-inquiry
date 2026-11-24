@@ -68,3 +68,7 @@ The same fault recurred with this candidate. The offsets are specific to this EL
 The accompanying repository/archive contains FIRST/SECOND raw logs, the detailed Korean development diary, static module-scope analysis, selected C/assembly/Python working code, and an offline verifier. Start with `README.md` and `EVIDENCE-INDEX.md`. The full exact vendor driver C source and a complete reproducible system build are not included. The code is a review snapshot with local dependencies and historical boot bindings.
 
 There is no synchronized optical video, full call-stack capture or physical SPI/MIPI measurement in this package. ROMs, firmware binaries, partition/calibration backups, service credentials and flashing utilities are excluded. I am asking for review of the existing evidence and a focused next diagnostic plan. Thank you.
+
+## Historical optical photos
+
+[Gallery, contact sheets and all 30 original photographs](evidence/photos-20261101/README.md) from the 2026-11-01 A candidate **third activation** are available. This is a separate historical trial, not the 2026-11-24 FIRST/SECOND comparison. The separately supplied frames 028 and 029 are included once each, with original bytes preserved.

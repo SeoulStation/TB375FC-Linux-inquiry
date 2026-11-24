@@ -7,3 +7,7 @@ Excluded: ROM/rootfs archives, boot/partition images, kernel/module binaries, to
 The technical logs intentionally retain diagnostic kernel addresses, transient PIDs/boot IDs and experiment identifiers. Selected code/analysis retains historical local filesystem paths. Originals were not edited to remove technical context. The provenance map uses `P/` for TB375FC-Linux and `G/` for tb375fc-gnome-app-pilot.
 
 This package contains selected source for review rather than an installation release. The exact full vendor C source, normal-Android baseline with identical instrumentation, synchronized optical recording and physical SPI/MIPI measurements are not present.
+
+## Photo supplement
+
+Added with the user's authorization: 30 original tablet-screen photos from 2026-11-01, two derived contact sheets, a gallery and hash manifest. Original JPEG bytes, including embedded metadata, are preserved; contact sheets are navigation derivatives. The images contain the tablet display, surrounding desk surface and a hand.

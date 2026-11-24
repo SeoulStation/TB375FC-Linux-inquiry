@@ -15,3 +15,7 @@
 | Source selection and exact copied bytes | [Provenance](PROVENANCE.json), [code scope](code/README.md) |
 
 The continuous stream is textual `/dev/kmsg` output despite the `.raw` suffix. Kernel snapshots and raw stream include diagnostic kernel addresses. The metadata records software acquisition times; it does not establish optical synchronization or physical causality. Historical analysis references some local-only paths and files; only files listed in this bundle are included.
+
+## Historical photo supplement
+
+[2026-11-01 A third-activation photos](evidence/photos-20261101/README.md): 30 unchanged original JPEGs, 2 derived contact sheets and a hash manifest. Historical optical evidence; separate from 2026-11-24 FIRST/SECOND.
